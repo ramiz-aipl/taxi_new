@@ -1,0 +1,10 @@
+# details
+/details
+/uploads
+/admin/application/logs
+/application/logs
+/application/third_party/PHPExcel/*
+/application/third_party/_old_PHPExcel/
+/application/third_party/_old_PHPExcel.php
+/admin/_old_sample_car_excel
+api/application/logs/
