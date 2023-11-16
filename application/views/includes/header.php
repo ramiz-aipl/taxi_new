@@ -115,17 +115,17 @@
                     </div>
                     <div class="header-menu-wrap">
                         <ul class="nav-menu">
-                            <li class="active ">
+                            <li class="<?php echo ($this->uri->segment(1) == '') ? 'active' : '' ?> ">
                                 <a href="<?php echo base_url(); ?>">Home</a>
                                 <!-- <ul>
                                     <li><a href="<?php echo base_url(); ?>">Home Default</a></li>
                                     <li><a href="index-2.html">Home Modern</a></li>
                                 </ul> -->
                             </li>
-                            <li class="">
+                            <li class="<?php echo ($this->uri->segment(1) == 'about-us') ? 'active' : '' ?>" >
                                 <a href="<?php echo base_url('about-us'); ?>">About Us</a>
                             </li>
-                            <li class=" ">
+                            <li class="<?php echo ($this->uri->segment(1) == 'services') ? 'active' : '' ?>">
                                 <a href="<?php echo base_url('services'); ?>">Our Fleet</a>
                             </li>
                             <!-- <li class="dropdown_menu">
@@ -163,7 +163,7 @@
                                     <li><a href="blog-details.html">Blog Details</a></li>
                                 </ul>
                             </li> -->
-                            <li><a href="<?php echo base_url('contact-us') ?>">Contact</a></li>
+                            <li class="<?php echo ($this->uri->segment(1) == 'contact-us') ? 'active' : '' ?>"><a href="<?php echo base_url('contact-us') ?>">Contact</a></li>
                         </ul>
                     </div>
                     <div class="menu-right-item">

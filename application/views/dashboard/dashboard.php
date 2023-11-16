@@ -225,9 +225,9 @@
                                 <div class="service-car"><img src="<?php echo BASE_URL; ?>assets/img/car-1.png" alt="car"></div>
                             </div>
                             <div class="service-content">
-                                <h3><a href="<?php echo base_url('services/detail/airport'); ?>">Weddings & Events</a></h3>
+                                <h3><a href="<?php echo base_url('services/detail/wedding'); ?>">Weddings & Events</a></h3>
                                 <p>Make your Weddings and Events even more memorable with the elegant transportation services offered by American Platinum Limousine</p>
-                                <a class="read-more" href="<?php echo base_url('services/detail/airport'); ?>">Read
+                                <a class="read-more" href="<?php echo base_url('services/detail/wedding'); ?>">Read
                                     More</a>
                             </div>
                         </div>
@@ -237,16 +237,16 @@
                                                                         wow
                                                                         fade-in-bottom" data-wow-delay="600ms">
                             <div class="service-thumb">
-                                <img src="<?php echo BASE_URL; ?>assets/img/service-3.jpg" alt="img">
+                                <img src="<?php echo BASE_URL; ?>assets/img/service-3.jpg" alt="img" style="min-height:234px;">
                                 <!-- <div class="service-shape-wrap">
                                     <div class="service-shape"></div>
                                 </div> -->
                                 <div class="service-car"><img src="<?php echo BASE_URL; ?>assets/img/car-1.png" alt="car"></div>
                             </div>
                             <div class="service-content">
-                                <h3><a href="<?php echo base_url('services/detail/airport'); ?>">Business Travel</a></h3>
+                                <h3><a href="<?php echo base_url('services/detail/business'); ?>">Business Travel</a></h3>
                                 <p>At American Platinum Limousine, we understand the importance of seamless, stress-free business travel. Whether you're a busy executive</p>
-                                <a class="read-more" href="<?php echo base_url('services/detail/airport'); ?>">Read
+                                <a class="read-more" href="<?php echo base_url('services/detail/business'); ?>">Read
                                     More</a>
                             </div>
                         </div>
@@ -389,22 +389,22 @@
         </div>
         <ul class="nav pricing-tab-menu" id="pricing-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="hybrid-taxi" data-bs-toggle="tab" data-bs-target="#strtch-taxi-content" type="button" role="tab" aria-controls="strtch-taxi-content" aria-selected="true">Stretch Limousine</button>
+                <button class="nav-link active" id="stretch-taxi" data-bs-toggle="tab" data-bs-target="#strtch-taxi-content" type="button" role="tab" aria-controls="strtch-taxi-content" aria-selected="true">Stretch Limousine</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link " id="hybrid-taxi" data-bs-toggle="tab" data-bs-target="#hybrid-taxi-content" type="button" role="tab" aria-controls="hybrid-taxi-content" aria-selected="true">Luxury SUV</button>
+                <button class="nav-link " id="hybrid-taxi" data-bs-toggle="tab" data-bs-target="#luxury-suv" type="button" role="tab" aria-controls="luxury-suv" aria-selected="true">Luxury SUV</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="town-taxt" data-bs-toggle="tab" data-bs-target="#town-taxi-content" type="button" role="tab" aria-controls="town-taxi-content" aria-selected="false">Luxury Sedan</button>
+                <button class="nav-link" id="town-taxt" data-bs-toggle="tab" data-bs-target="#luxury-sedan" type="button" role="tab" aria-controls="luxury-sedan" aria-selected="false">Luxury Sedan</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="limousine-taxi" data-bs-toggle="tab" data-bs-target="#limousine-taxi-content" type="button" role="tab" aria-controls="limousine-taxi-content" aria-selected="false">Special Request </button>
+                <button class="nav-link" id="limousine-taxi" data-bs-toggle="tab" data-bs-target="#special-request" type="button" role="tab" aria-controls="special-request" aria-selected="false">Special Request </button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="party-bus" data-bs-toggle="tab" data-bs-target="#party-bus-content" type="button" role="tab" aria-controls="party-bus-content" aria-selected="false">Party Bus </button>
             </li>
             <!-- <li class="nav-item" role="presentation">
-                <button class="nav-link" id="limousine-taxi" data-bs-toggle="tab" data-bs-target="#limousine-taxi-content" type="button" role="tab" aria-controls="party-taxi-content" aria-selected="false">Party Buses</button>
+                <button class="nav-link" id="limousine-taxi" data-bs-toggle="tab" data-bs-target="#special-request" type="button" role="tab" aria-controls="party-taxi-content" aria-selected="false">Party Buses</button>
             </li> -->
         </ul>
 
@@ -415,13 +415,13 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
                                     <div class="price">$2.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">10pax Stretch</a></h3>
-                                <span class="location">Chicago</span>
+                                <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial Charge:
@@ -443,13 +443,13 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
                                     <div class="price">$2.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">14pax Stretch</a></h3>
-                                <span class="location">Chicago</span>
+                                <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial Charge:
@@ -471,13 +471,13 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
                                     <div class="price">$2.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">18pax Stretch</a></h3>
-                                <span class="location">Chicago</span>
+                                <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial Charge:
@@ -498,21 +498,19 @@
                     
                 </div>
             </div>
-            <div class="tab-pane fade show " id="hybrid-taxi-content" role="tabpanel" aria-labelledby="hybrid-taxi-content">
+            <div class="tab-pane fade show " id="luxury-suv" role="tabpanel" aria-labelledby="luxury-suv">
                 <div class="row">
-                    <div class="col-lg-4
-                                                                col-md-6
-                                                                sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/luxury_suv/cadillac_escalade.png" alt="car">
                                     <div class="price">$2.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Cadillac Escalade</a></h3>
-                                <span class="location">Chicago</span>
+                                <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -538,19 +536,17 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4
-                                                                col-md-6
-                                                                sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/luxury_suv/lincoln_navigator.png" alt="car">
                                     <div class="price">$3.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Lincoln Navigator</a></h3>
-                                <span class="location">Florida</span>
+                                <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -576,13 +572,11 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4
-                                                                col-md-6
-                                                                sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/luxury_suv/chevrolet_suburban.png" alt="car">
                                     <div class="price">$4.50/km</div>
                                 </div>
                             </div>
@@ -618,60 +612,58 @@
                     
                 </div>
                 <div class="row mt-15">
-                <div class="col-lg-4
-                                                                col-md-6
-                                                                sm-padding">
-                        <div class="pricing-item">
-                            <div class="pricing-head-wrap">
-                                <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
-                                    <div class="price">$4.50/km</div>
+                    <div class="col-lg-4 col-md-6 sm-padding">
+                            <div class="pricing-item">
+                                <div class="pricing-head-wrap">
+                                    <div class="pricing-car">
+                                        <img src="<?php echo BASE_URL; ?>assets/img/luxury_suv/GMC_Yukon_Denal.png" alt="car">
+                                        <div class="price">$4.50/km</div>
+                                    </div>
                                 </div>
+                                <div class="pricing-head">
+                                    <h3><a href="taxi-details.html">GMC Yukon Denali</a></h3>
+                                    <span class="location">New
+                                        York</span>
+                                </div>
+                                <ul class="pricing-list">
+                                    <li>Initial
+                                        Charge:
+                                        <span>$2.50</span>
+                                    </li>
+                                    <li>Per
+                                        Mile/KM:
+                                        <span>$4.20</span>
+                                    </li>
+                                    <li>Per
+                                        Stopped
+                                        Trafic:
+                                        <span>$1.50</span>
+                                    </li>
+                                    <li>Passengers:
+                                        <span>4
+                                            Person</span>
+                                    </li>
+                                    <li><a href="book-taxi.html" class="default-btn">Book
+                                            Taxi
+                                            Now</a></li>
+                                </ul>
                             </div>
-                            <div class="pricing-head">
-                                <h3><a href="taxi-details.html">GMC Yukon Denali</a></h3>
-                                <span class="location">New
-                                    York</span>
-                            </div>
-                            <ul class="pricing-list">
-                                <li>Initial
-                                    Charge:
-                                    <span>$2.50</span>
-                                </li>
-                                <li>Per
-                                    Mile/KM:
-                                    <span>$4.20</span>
-                                </li>
-                                <li>Per
-                                    Stopped
-                                    Trafic:
-                                    <span>$1.50</span>
-                                </li>
-                                <li>Passengers:
-                                    <span>4
-                                        Person</span>
-                                </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
-                                        Taxi
-                                        Now</a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane fade" id="town-taxi-content" role="tabpanel" aria-labelledby="town-taxi-content">
+            <div class="tab-pane fade" id="luxury-sedan" role="tabpanel" aria-labelledby="luxury-sedan">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 sm-padding">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Lincoln_Aviator.png" alt="car">
                                     <div class="price">$2.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Lincoln Aviator</a></h3>
-                                <span class="location">Chicago</span>
+                                <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -701,13 +693,13 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Lincoln_Nautilus.png" alt="car">
                                     <div class="price">$3.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Lincoln Nautilus </a></h3>
-                                <span class="location">Florida</span>
+                                <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -737,7 +729,7 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Lincoln_MKT.png" alt="car">
                                     <div class="price">$4.50/km</div>
                                 </div>
                             </div>
@@ -776,13 +768,13 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Lincoln-continental.png" alt="car">
                                     <div class="price">$2.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Lincoln Continental</a></h3>
-                                <span class="location">Chicago</span>
+                                <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -812,13 +804,13 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Cadillac_CT-6.png" alt="car">
                                     <div class="price">$3.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Cadillac CT-6 </a></h3>
-                                <span class="location">Florida</span>
+                                <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -848,7 +840,7 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Cadillac_XTS.png" alt="car">
                                     <div class="price">$4.50/km</div>
                                 </div>
                             </div>
@@ -883,19 +875,19 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="limousine-taxi-content" role="tabpanel" aria-labelledby="limousine-taxi">
+            <div class="tab-pane fade" id="special-request" role="tabpanel" aria-labelledby="limousine-taxi">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 sm-padding">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/special_request/mercedes_maybach.png" alt="car">
                                     <div class="price">$2.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Mercedes Maybach</a></h3>
-                                <span class="location">Chicago</span>
+                                <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -925,13 +917,13 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/special_request/mercedes_Eclass.png" alt="car">
                                     <div class="price">$3.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Mercedes E-Class</a></h3>
-                                <span class="location">Florida</span>
+                                <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -961,7 +953,7 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/special_request/mercedes_sclass.png" alt="car">
                                     <div class="price">$4.50/km</div>
                                 </div>
                             </div>
@@ -1000,13 +992,13 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/special_request/rolls-royce-ghost.png" alt="car">
                                     <div class="price">$2.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Rolls Royce Ghost</a></h3>
-                                <span class="location">Chicago</span>
+                                <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -1036,13 +1028,13 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/special_request/Rolls-Royce-Phantom.png" alt="car">
                                     <div class="price">$3.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Rolls Royce Phantom</a></h3>
-                                <span class="location">Florida</span>
+                                <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -1077,13 +1069,13 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/party_bus/mercedes_Sprinter.png" alt="car">
                                     <div class="price">$2.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Mercedes Sprinter (14 pax)</a></h3>
-                                <span class="location">Chicago</span>
+                                <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial Charge:
@@ -1105,13 +1097,13 @@
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
                                 <div class="pricing-car">
-                                    <img src="<?php echo BASE_URL; ?>assets/img/pricing-car.png" alt="car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/party_bus/Ford-transit.png" alt="car">
                                     <div class="price">$2.50/km</div>
                                 </div>
                             </div>
                             <div class="pricing-head">
                                 <h3><a href="taxi-details.html">Ford Transit Executive (15 pax)</a></h3>
-                                <span class="location">Chicago</span>
+                                <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial Charge:
@@ -1213,8 +1205,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
-                <div class="section-heading
-                                                        mb-10">
+                <div class="section-heading mb-10">
                     <h4><span></span>Clients
                         Testimonial</h4>
                     <h2>American Platinum Limousine Passenger
@@ -1227,164 +1218,77 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="testi-item">
-                                    <div class="quote-icon"><i class="las
-                                                                                        la-quote-right"></i></div>
-                                    <p>Good
-                                        to
-                                        have
-                                        transportation
-                                        available
-                                        in
-                                        places
-                                        and
-                                        times
-                                        it
-                                        is
-                                        otherwise
-                                        hard
-                                        to
-                                        find,
-                                        but
-                                        the
-                                        app
-                                        has
-                                        always
-                                        been
-                                        a
-                                        bit
-                                        difficult
-                                        to
-                                        use
-                                        especially
-                                        how
-                                        it
-                                        works
-                                        or
-                                        doesnt
-                                        with
-                                        large
-                                        font
-                                        phone
-                                        settings.</p>
+                                    <div class="quote-icon"><i class="las la-quote-right"></i></div>
+                                    <p>I rely on American Platinum Limousine Taxis for all my travel needs! Their drivers are professional, vehicles are clean, and the service is always punctual. Whether it's a business meeting or a late-night airport pickup, American Platinum Limousine Taxis is my go-to choice.</p>
                                     <div class="testi-author">
-                                        <div class="author-thumb"><img src="assets/img/comment-1.png" alt="author"></div>
+                                        <!-- <div class="author-thumb"><img src="assets/img/comment-1.png" alt="author"></div> -->
                                         <div class="author-info">
-                                            <h3>Eredrik
-                                                Johanson
-                                                <span>Financial
-                                                    .INC</span>
-                                            </h3>
+                                            <h3>Sarah K</h3>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="testi-item">
-                                    <div class="quote-icon"><i class="las
-                                                                                        la-quote-right"></i></div>
-                                    <p>Good
-                                        to
-                                        have
-                                        transportation
-                                        available
-                                        in
-                                        places
-                                        and
-                                        times
-                                        it
-                                        is
-                                        otherwise
-                                        hard
-                                        to
-                                        find,
-                                        but
-                                        the
-                                        app
-                                        has
-                                        always
-                                        been
-                                        a
-                                        bit
-                                        difficult
-                                        to
-                                        use
-                                        especially
-                                        how
-                                        it
-                                        works
-                                        or
-                                        doesnt
-                                        with
-                                        large
-                                        font
-                                        phone
-                                        settings.</p>
+                                    <div class="quote-icon"><i class="las la-quote-right"></i></div>
+                                    <p>I've been using American Platinum Limousine Taxis for my daily commute, and they've never let me down. The website is user-friendly, the drivers are courteous, and the cars are always in top condition. It's a reliable service that I can count on every time.</p>
                                     <div class="testi-author">
-                                        <div class="author-thumb"><img src="assets/img/comment-2.png" alt="author"></div>
+                                        <!-- <div class="author-thumb"><img src="assets/img/comment-1.png" alt="author"></div> -->
                                         <div class="author-info">
-                                            <h3>Mauricio
-                                                Fernández
-                                                <span>Financial
-                                                    .INC</span>
-                                            </h3>
+                                            <h3>Robert</h3>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="testi-item">
-                                    <div class="quote-icon"><i class="las
-                                                                                        la-quote-right"></i></div>
-                                    <p>Good
-                                        to
-                                        have
-                                        transportation
-                                        available
-                                        in
-                                        places
-                                        and
-                                        times
-                                        it
-                                        is
-                                        otherwise
-                                        hard
-                                        to
-                                        find,
-                                        but
-                                        the
-                                        app
-                                        has
-                                        always
-                                        been
-                                        a
-                                        bit
-                                        difficult
-                                        to
-                                        use
-                                        especially
-                                        how
-                                        it
-                                        works
-                                        or
-                                        doesnt
-                                        with
-                                        large
-                                        font
-                                        phone
-                                        settings.</p>
+                                    <div class="quote-icon"><i class="las la-quote-right"></i></div>
+                                    <p>American Platinum Limousine Taxis goes above and beyond when it comes to customer service. I had left my phone in one of their taxis, and they promptly tracked it down and returned it to me. I appreciate their honesty and commitment to customer satisfaction.</p>
                                     <div class="testi-author">
-                                        <div class="author-thumb"><img src="assets/img/comment-3.png" alt="author"></div>
+                                        <!-- <div class="author-thumb"><img src="assets/img/comment-1.png" alt="author"></div> -->
                                         <div class="author-info">
-                                            <h3>Javier
-                                                F.
-                                                Arébalo
-                                                <span>Financial
-                                                    .INC</span>
-                                            </h3>
+                                            <h3></h3>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-slide">
+                                <div class="testi-item">
+                                    <div class="quote-icon"><i class="las la-quote-right"></i></div>
+                                    <p>Safety is my top priority when choosing a taxi service, and American Platinum Limousine Taxis never disappoint. Their drivers are skilled, and the vehicles are well-maintained. I feel secure and comfortable every time I hop into one of their cabs.</p>
+                                    <div class="testi-author">
+                                        <!-- <div class="author-thumb"><img src="assets/img/comment-1.png" alt="author"></div> -->
+                                        <div class="author-info">
+                                            <h3>Linda</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testi-item">
+                                    <div class="quote-icon"><i class="las la-quote-right"></i></div>
+                                    <p>I needed a ride home late at night, and XYZ Taxis was there for me. The driver was friendly and ensured I reached home safely. Their 24/7 service is a lifesaver, and I recommend them to anyone in need of a reliable late-night ride.</p>
+                                    <div class="testi-author">
+                                        <!-- <div class="author-thumb"><img src="assets/img/comment-1.png" alt="author"></div> -->
+                                        <div class="author-info">
+                                            <h3>Haroon</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testi-item">
+                                    <div class="quote-icon"><i class="las la-quote-right"></i></div>
+                                    <p>Our company has been partnering with XYZ Taxis for our corporate travel needs, and they have consistently delivered exceptional service. Their dedicated corporate program ensures smooth coordination and reliable transportation for our team.</p>
+                                    <div class="testi-author">
+                                        <!-- <div class="author-thumb"><img src="assets/img/comment-1.png" alt="author"></div> -->
+                                        <div class="author-info">
+                                            <h3>George P</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         
                         </div>
                     </div>
                     <div class="swiper-pagination
@@ -1509,7 +1413,7 @@
     </div>
 </section> -->
 
-<section class="blog-section bg-grey padding">
+<!-- <section class="blog-section bg-grey padding">
     <div class="container">
         <div class="section-heading text-center mb-40
                                         wow fade-in-bottom" data-wow-delay="200ms">
@@ -1680,4 +1584,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

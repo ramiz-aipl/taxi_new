@@ -35,9 +35,9 @@
                 <div class="row">
                         <div class="col-lg-8 sm-padding">
                                 <div class="service-details-info">
-                                        <img src="<?php echo BASE_URL; ?>assets/img/post-2.jpg" alt="img">
+                                        <img src="<?php echo BASE_URL; ?>assets/img/airport_service/1.jpg" alt="img">
                                         <h2>Airport Transfers</h2>
-                                        <p>Make your airport travel seamless and hassle-free with [American Platinum Limousine]. We understand the importance of timely arrivals and departures, and that's why we offer reliable airport transfer services to ensure you reach your destination on schedule. Whether you are heading to the airport for a departure or need a comfortable ride after a long flight, our professional drivers and well-maintained fleet are at your service.</p>
+                                        <p>Make your airport travel seamless and hassle-free with American Platinum Limousine. We understand the importance of timely arrivals and departures, and that's why we offer reliable airport transfer services to ensure you reach your destination on schedule. Whether you are heading to the airport for a departure or need a comfortable ride after a long flight, our professional drivers and well-maintained fleet are at your service.</p>
                                         <ul class="service-features">
                                                 <li>
                                                         <div><i class="las
@@ -132,36 +132,13 @@
                                                 future of
                                                 mathematics.</p>
                                         <div class="service-details-list">
-                                                <img src="<?php echo BASE_URL; ?>assets/img/post-1.jpg" alt="img">
-                                                <div>
-                                                        <h3>Passenger
-                                                                Benefits!</h3>
-                                                        <p>Everything
-                                                                your
-                                                                taxi
-                                                                business
-                                                                needs
-                                                                is
-                                                                already
-                                                                here!</p>
+                                                <img src="<?php echo BASE_URL; ?>assets/img/airport_service/2.jpg" alt="img">
+                                                <div> 
+                                                        <h3>Key Features</h3>
                                                         <ul class="service-icon-list">
-                                                                <li><i class="las
-                                                                                                la-hand-point-right"></i>Use
-                                                                        the
-                                                                        latest
-                                                                        diagnostic
-                                                                        equipment.</li>
-                                                                <li><i class="las
-                                                                                                la-hand-point-right"></i>Automotive
-                                                                        service
-                                                                        for
-                                                                        our
-                                                                        clients.</li>
-                                                                <li><i class="las
-                                                                                                la-hand-point-right"></i>Quick
-                                                                        dedicated
-                                                                        support
-                                                                        team.</li>
+                                                                <li><i class="las la-hand-point-right"></i>Punctual pickups and drop-offs</li>
+                                                                <li><i class="las la-hand-point-right"></i> Flight monitoring for delays and schedule changes</li>
+                                                                <li><i class="las la-hand-point-right"></i>Spacious vehicles for all your luggage needs</li>
                                                         </ul>
                                                 </div>
                                         </div>
@@ -175,21 +152,15 @@
                                                 <h3>Categories</h3>
                                         </div>
                                         <ul>
-                                                <li><a href="#">Regular
-                                                                Transport</a><i class="las
-                                                                                la-arrow-right"></i></li>
-                                                <li><a href="#">City
-                                                                Transport</a><i class="las
-                                                                                la-arrow-right"></i></li>
-                                                <li><a href="#">Airport
-                                                                Transport</a><i class="las
-                                                                                la-arrow-right"></i></li>
-                                                <li><a href="#">Long
-                                                                Journey</a><i class="las
-                                                                                la-arrow-right"></i></li>
-                                                <li><a href="#">Luggage
-                                                                Transport</a><i class="las
-                                                                                la-arrow-right"></i></li>
+                                                <li>
+                                                        <a href="<?php echo base_url('services/detail/wedding'); ?>">Weddings & Events</a><i class="las la-arrow-right"></i>
+                                                </li>
+                                                <li>
+                                                        <a href="<?php echo base_url('services/detail/business'); ?>">Business Travel</a><i class="las la-arrow-right"></i>
+                                                </li>
+                                                <li><a href="<?php echo base_url('services/detail/airport'); ?>">Airport
+                                                                Transport</a><i class="las la-arrow-right"></i></li>
+                                                
                                         </ul>
                                 </div>
                                 <div class="sidebar-widget

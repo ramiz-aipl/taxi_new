@@ -28,6 +28,10 @@ class Services extends CI_Controller
         
         if($id=='airport'){
             $data['main_content'] = 'services/airport';
+        }else if($id=='wedding'){
+            $data['main_content'] = 'services/wedding';
+        }else if($id=='business'){
+            $data['main_content'] = 'services/business';
         }else{
 
             $data['main_content'] = 'services/detail';
