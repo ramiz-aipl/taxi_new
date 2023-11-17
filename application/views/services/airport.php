@@ -1,23 +1,3 @@
-<div id="popup-sidebox" class="popup-sidebox">
-        <div class="sidebox-content">
-                <div class="site-logo">
-                        <a href="index.html"><img src="<?php echo BASE_URL; ?>assets/img/logo-light.png" alt="logo" /></a>
-                </div>
-                <p>Everything your taxi business needs is
-                        already here! American Platinum Limousine, a theme
-                        made for taxi service companies.</p>
-                <ul class="sidebox-list">
-                        <li class="call"><span>Call for ride:</span>5267-214-392</li>
-                        <li>
-                                <span>You can find us at:</span>Halk
-                                Street New York, USA - 2386
-                        </li>
-                        <li><span>Email now:</span><a href="https://html.dynamiclayers.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="">info@xyz.com</a></li>
-                </ul>
-        </div>
-</div>
-
-<div id="sidebox-overlay"></div>
 <section class="page-header">
         <div class="page-header-shape"></div>
         <div class="container">
@@ -40,100 +20,59 @@
                                         <p>Make your airport travel seamless and hassle-free with American Platinum Limousine. We understand the importance of timely arrivals and departures, and that's why we offer reliable airport transfer services to ensure you reach your destination on schedule. Whether you are heading to the airport for a departure or need a comfortable ride after a long flight, our professional drivers and well-maintained fleet are at your service.</p>
                                         <ul class="service-features">
                                                 <li>
-                                                        <div><i class="las
-                                                                                        la-shipping-fast"></i></div>
+                                                        <div><i class="las la-shipping-fast"></i></div>
                                                         <div>
-                                                                <h3>Fast
-                                                                        &amp;
-                                                                        Easy
-                                                                        Pickups</h3>
-                                                                <p>Everything
-                                                                        your
-                                                                        taxi
-                                                                        business
-                                                                        needs
-                                                                        is
-                                                                        already
-                                                                        here!</p>
+                                                                <h3>Online Booking System</h3>
+                                                                <p>Say goodbye to last-minute hassles. Our intuitive online booking system allows you to reserve your airport taxi in advance, providing peace of mind and a guaranteed ride when you need it.</p>
                                                         </div>
                                                 </li>
                                                 <li>
-                                                        <div><i class="las
-                                                                                        la-taxi"></i></div>
+                                                        <div><i class="las la-taxi"></i></div>
                                                         <div>
-                                                                <h3>Instant
-                                                                        Car
-                                                                        Provide</h3>
-                                                                <p>Everything
-                                                                        your
-                                                                        taxi
-                                                                        business
-                                                                        needs
-                                                                        is
-                                                                        already
-                                                                        here!</p>
+                                                                <h3>Transparent Fare Estimates</h3>
+                                                                <p>No surprises! Our website offers transparent fare estimates based on your pickup and drop-off locations. Know the cost of your ride in advance and eliminate uncertainties</p>
                                                         </div>
                                                 </li>
                                                 <li>
-                                                        <div><i class="las
-                                                                                        la-tachometer-alt"></i></div>
+                                                        <div><i class="las la-tachometer-alt"></i></div>
                                                         <div>
-                                                                <h3>Save
-                                                                        Expert
-                                                                        Drive</h3>
-                                                                <p>Everything
-                                                                        your
-                                                                        taxi
-                                                                        business
-                                                                        needs
-                                                                        is
-                                                                        already
-                                                                        here!</p>
+                                                                <h3>Real-Time Flight Tracking</h3>
+                                                                <p>We keep an eye on your flight schedule, ensuring that our drivers are there to meet you promptly. Real-time flight tracking minimizes wait times and ensures timely pickups, even if your flight is delayed.</p>
                                                         </div>
                                                 </li>
                                                 <li>
-                                                        <div><i class="las
-                                                                                        la-user-astronaut"></i></div>
+                                                        <div><i class="las la-user-astronaut"></i></div>
                                                         <div>
-                                                                <h3>24/7
-                                                                        Support</h3>
-                                                                <p>Everything
-                                                                        your
-                                                                        taxi
-                                                                        business
-                                                                        needs
-                                                                        is
-                                                                        already
-                                                                        here!</p>
+                                                                <h3>24/7 Availability</h3>
+                                                                <p>Your travel plans may not always align with traditional business hours. That's why our airport taxi services are available 24/7, accommodating early morning flights, late-night arrivals, and everything in between.</p>
+                                                        </div>
+                                                </li>
+                                                <li>
+                                                        <div><i class="las la-car-side"></i></div>
+                                                        <div>
+                                                                <h3>Fleet Information</h3>
+                                                                <p>Get to know our fleet. Our website provides details about our well-maintained vehicles, ensuring you travel in comfort and style. From sedans to spacious vans, we have the right vehicle for your needs.</p>
+                                                        </div>
+                                                </li>
+                                                <li>
+                                                        <div><i class="las la-credit-card"></i></div>
+                                                        <div>
+                                                                <h3>Secure Online Payments</h3>
+                                                                <p>Convenience at your fingertips! Our secure online payment system allows you to complete transactions hassle-free. Pay for your airport taxi ride with confidence using our encrypted payment gateway.</p>
+                                                        </div>
+                                                </li>
+                                                <li>
+                                                        <div><i class="las la-users"></i></div>
+                                                        <div>
+                                                                <h3>Customer Reviews and Testimonials</h3>
+                                                                <p>Hear from our satisfied customers. Browse through customer reviews and testimonials on our website to learn about the positive experiences of travelers who have chosen American Platinum Limousine.</p>
                                                         </div>
                                                 </li>
                                         </ul>
-                                        <p>There are some big
-                                                shifts taking
-                                                place in the
-                                                field of
-                                                construction
-                                                equipment
-                                                mathematics.
-                                                Starting with
-                                                the integration
-                                                of mathematics
-                                                devices in
-                                                vehicles right
-                                                from
-                                                manufacturers,
-                                                to the
-                                                standardization
-                                                and integration
-                                                of mathematics
-                                                data across
-                                                various business
-                                                functions, the
-                                                future of
-                                                mathematics.</p>
+                                        
                                         <div class="service-details-list">
                                                 <img src="<?php echo BASE_URL; ?>assets/img/airport_service/2.jpg" alt="img">
-                                                <div> 
+                                                <div>
                                                         <h3>Key Features</h3>
                                                         <ul class="service-icon-list">
                                                                 <li><i class="las la-hand-point-right"></i>Punctual pickups and drop-offs</li>
@@ -152,15 +91,15 @@
                                                 <h3>Categories</h3>
                                         </div>
                                         <ul>
-                                                <li>
-                                                        <a href="<?php echo base_url('services/detail/wedding'); ?>">Weddings & Events</a><i class="las la-arrow-right"></i>
-                                                </li>
+                                                <li><a href="<?php echo base_url('services/detail/airport'); ?>">Airport
+                                                                Transport</a><i class="las la-arrow-right"></i></li>
+                                              
                                                 <li>
                                                         <a href="<?php echo base_url('services/detail/business'); ?>">Business Travel</a><i class="las la-arrow-right"></i>
                                                 </li>
-                                                <li><a href="<?php echo base_url('services/detail/airport'); ?>">Airport
-                                                                Transport</a><i class="las la-arrow-right"></i></li>
-                                                
+                                                <li>
+                                                        <a href="<?php echo base_url('services/detail/wedding'); ?>">Weddings & Events</a><i class="las la-arrow-right"></i>
+                                                </li>
                                         </ul>
                                 </div>
                                 <div class="sidebar-widget

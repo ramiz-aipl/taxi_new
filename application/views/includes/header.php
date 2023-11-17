@@ -84,7 +84,7 @@
                                 <i class="las la-phone-volume"></i>
                             </div>
                             <div class="header-info-text">
-                                <h3><span>Call us now</span><a href="tel:5267214392">5267-214-392</a></h3>
+                                <h3><span>Call us now</span><a href="tel:<?php echo WEBSITE_NUMBER ?>"><?php echo WEBSITE_NUMBER ?></a></h3>
                             </div>
                         </li>
                         <li>
@@ -92,7 +92,7 @@
                                 <i class="las la-envelope-open"></i>
                             </div>
                             <div class="header-info-text">
-                                <h3><span>Email now</span><a href="https://html.dynamiclayers.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="">info@xyz.com</a></h3>
+                                <h3><span>Email now</span><a href="mailto:<?php echo WEBSITE_EMAIL ?>" class="__cf_email__" data-cfemail=""><?php echo WEBSITE_EMAIL ?></a></h3>
                             </div>
                         </li>
                         <li>
@@ -135,7 +135,7 @@
                                     <li><a href="about-company.html">About Company</a></li>
                                     <li><a href="our-services.html">Our Services</a></li>
                                     <li><a href="service-details.html">Services Details</a></li>
-                                    <li><a href="book-taxi.html">Book a Ride</a></li>
+                                    <li><a href="<?php echo base_url('book-taxi') ?>">Book a Ride</a></li>
                                 </ul>
                             </li> -->
                             <!-- <li class="dropdown_menu">
@@ -173,7 +173,7 @@
                         <div class="sidebox-icon dl-sidebox-icon">
                             <i class="las la-bars"></i>
                         </div>
-                        <a href="book-taxi.html" class="menu-btn">Book a Taxi</a>
+                        <a href="<?php echo base_url('book-taxi') ?>" class="menu-btn">Book a Taxi</a>
                     </div>
                     <div class="mobile-menu-icon">
                         <div class="burger-menu">
@@ -213,12 +213,12 @@
                 already here! American Platinum Limousine, a theme
                 made for taxi service companies.</p>
             <ul class="sidebox-list">
-                <li class="call"><span>Call for ride:</span>5267-214-392</li>
+                <li class="call"><span>Call for ride:</span><?php echo WEBSITE_NUMBER ?></li>
                 <li>
                     <span>You can find us at:</span>Halk
                     Street New York, USA - 2386
                 </li>
-                <li><span>Email now:</span><a href="https://html.dynamiclayers.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="">info@xyz.com</a></li>
+                <li><span>Email now:</span><a href="mailto:<?php echo WEBSITE_EMAIL ?>" style="color: #fff;" class="__cf_email__" data-cfemail=""><?php echo WEBSITE_NUMBER ?></a></li>
             </ul>
         </div>
     </div>

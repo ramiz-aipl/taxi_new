@@ -1,21 +1,3 @@
-<div id="popup-sidebox" class="popup-sidebox">
-    <div class="sidebox-content">
-        <div class="site-logo">
-            <a href="index.html"><img src="<?php echo BASE_URL; ?>assets/img/logo-light.png" alt="logo" /></a>
-        </div>
-        <p>Everything your taxi business needs is
-            already here! American Platinum Limousine, a theme
-            made for taxi service companies.</p>
-        <ul class="sidebox-list">
-            <li class="call"><span>Call for ride:</span>5267-214-392</li>
-            <li>
-                <span>You can find us at:</span>Halk
-                Street New York, USA - 2386
-            </li>
-            <li><span>Email now:</span><a href="https://html.dynamiclayers.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail=""></a></li>
-        </ul>
-    </div>
-</div>
 
 <div id="sidebox-overlay"></div>
                 <section class="page-header">

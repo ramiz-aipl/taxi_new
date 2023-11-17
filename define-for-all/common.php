@@ -6,12 +6,13 @@ define("HOSTNAME", 'localhost');
 define("USERNAME", "root");
 define("PASSWORD", "");
 define("DATABASE", "taxi");
-$BASE_URL = 'http://' . $_SERVER['HTTP_HOST'] . '/taxi_html_hafizullah_bapu/src/';
-define("DOCUMENT_ROOT", $_SERVER['DOCUMENT_ROOT'] . '/taxi_html_hafizullah_bapu/src/');
+$BASE_URL = 'http://' . $_SERVER['HTTP_HOST'] . '/taxi_new/';
+define("DOCUMENT_ROOT", $_SERVER['DOCUMENT_ROOT'] . '/taxi_new/');
 
 
 define("WEBSITE_NAME", "American Platinum Limousine Taxy");
-define("WEBSITE_EMAIL", "support@taxi.com");
+define("WEBSITE_EMAIL", "info@aplimo.co");
+define("WEBSITE_NUMBER", "+1 (224) 578-0598");
 define("ADMIN_EMAIL", "ramizg.aipl@gmail.com");
 define('USER_PAN_DIR', 'user_pan/');
 define('USER_PROFILE_DIR', 'user_profile/');

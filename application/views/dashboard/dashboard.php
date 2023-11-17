@@ -12,25 +12,7 @@
     </div>
 </div>
 
-<div id="searchbox-overlay"></div>
-<div id="popup-sidebox" class="popup-sidebox">
-    <div class="sidebox-content">
-        <div class="site-logo">
-            <a href="index.html"><img src="<?php echo BASE_URL; ?>assets/img/logo-light.png" alt="logo"></a>
-        </div>
-        <p>Everything your taxi business needs is
-            already here! Ridek, a theme
-            made for taxi service companies.</p>
-        <ul class="sidebox-list">
-            <li class="call"><span>Call for ride:</span>5267-214-392</li>
-            <li>
-                <span>You can find us at:</span>Halk
-                Street New York, USA - 2386
-            </li>
-            <li><span>Email now:</span><a href="https://html.dynamiclayers.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="">info@xyz.com</a></li>
-        </ul>
-    </div>
-</div>
+
 
 <div id="sidebox-overlay"></div>
 <div class="slider-section">
@@ -85,7 +67,7 @@
                                 </div>
                             </div> -->
                             <div class="slider-btn">
-                                <a href="book-taxi.html" class="default-btn" data-animation="fade-in-bottom" data-delay="0.9s">Book
+                                <a href="<?php echo base_url('book-taxi') ?>" class="default-btn" data-animation="fade-in-bottom" data-delay="0.9s">Book
                                     Now</a>
                             </div>
                         </div>
@@ -120,7 +102,7 @@
                                 </div>
                             </div>
                             <div class="slider-btn">
-                                <a href="book-taxi.html" class="default-btn" data-animation="fade-in-bottom" data-delay="0.9s">Book
+                                <a href="<?php echo base_url('book-taxi') ?>" class="default-btn" data-animation="fade-in-bottom" data-delay="0.9s">Book
                                     Now</a>
                             </div>
                         </div>
@@ -195,11 +177,9 @@
             <div class="service-carousel">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="service-item
-                                                                        wow
-                                                                        fade-in-bottom" data-wow-delay="200ms">
+                        <div class="service-item wow fade-in-bottom" data-wow-delay="200ms">
                             <div class="service-thumb">
-                                <img src="<?php echo BASE_URL; ?>assets/img/service-1.jpg" alt="img">
+                                <img src="<?php echo BASE_URL; ?>assets/img/service-1.jpg" alt="img" style="min-height:274px;">
                                 <!-- <div class="service-shape-wrap">
                                     <div class="service-shape"></div>
                                 </div> -->
@@ -218,7 +198,7 @@
                                                                         wow
                                                                         fade-in-bottom" data-wow-delay="400ms">
                             <div class="service-thumb">
-                                <img src="<?php echo BASE_URL; ?>assets/img/service-2.jpg" alt="img">
+                                <img src="<?php echo BASE_URL; ?>assets/img/service-2.jpg" alt="img" style="min-height:274px;">
                                 <!-- <div class="service-shape-wrap">
                                     <div class="service-shape"></div>
                                 </div> -->
@@ -237,7 +217,7 @@
                                                                         wow
                                                                         fade-in-bottom" data-wow-delay="600ms">
                             <div class="service-thumb">
-                                <img src="<?php echo BASE_URL; ?>assets/img/service-3.jpg" alt="img" style="min-height:234px;">
+                                <img src="<?php echo BASE_URL; ?>assets/img/service-3.jpg" alt="img" style="min-height:274px;">
                                 <!-- <div class="service-shape-wrap">
                                     <div class="service-shape"></div>
                                 </div> -->
@@ -411,16 +391,16 @@
         <div class="tab-content" id="pricing-tab-content">
             <div class="tab-pane fade show active" id="strtch-taxi-content" role="tabpanel" aria-labelledby="strtch-taxi-content">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
-                                    <div class="price">$2.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">10pax Stretch</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">10pax Stretch</a></h3>
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -435,20 +415,20 @@
                                 </li>
                                 <li>Passengers: <span>4 Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
-                                    <div class="price">$2.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">14pax Stretch</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">14pax Stretch</a></h3>
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -463,20 +443,20 @@
                                 </li>
                                 <li>Passengers: <span>4 Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
-                                    <div class="price">$2.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">18pax Stretch</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">18pax Stretch</a></h3>
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -491,7 +471,7 @@
                                 </li>
                                 <li>Passengers: <span>4 Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -500,16 +480,16 @@
             </div>
             <div class="tab-pane fade show " id="luxury-suv" role="tabpanel" aria-labelledby="luxury-suv">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/luxury_suv/cadillac_escalade.png" alt="car">
-                                    <div class="price">$2.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Cadillac Escalade</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Cadillac Escalade</a></h3>
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -530,22 +510,22 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/luxury_suv/lincoln_navigator.png" alt="car">
-                                    <div class="price">$3.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Lincoln Navigator</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Lincoln Navigator</a></h3>
                                 <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -566,24 +546,23 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/luxury_suv/chevrolet_suburban.png" alt="car">
-                                    <div class="price">$4.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Chevrolet suburban</a></h3>
-                                <span class="location">New
-                                    York</span>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Chevrolet suburban</a></h3>
+                                
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -603,7 +582,7 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
@@ -612,16 +591,16 @@
                     
                 </div>
                 <div class="row mt-15">
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                             <div class="pricing-item">
                                 <div class="pricing-head-wrap">
-                                    <div class="pricing-car">
+                                    <div class="pricing-car pricing-car-custom service-car">
                                         <img src="<?php echo BASE_URL; ?>assets/img/luxury_suv/GMC_Yukon_Denal.png" alt="car">
-                                        <div class="price">$4.50/km</div>
+                                        <!-- <div class="price">$2.50/km</div> -->
                                     </div>
                                 </div>
                                 <div class="pricing-head">
-                                    <h3><a href="taxi-details.html">GMC Yukon Denali</a></h3>
+                                    <h3><a href="<?php echo base_url('book-taxi') ?>">GMC Yukon Denali</a></h3>
                                     <span class="location">New
                                         York</span>
                                 </div>
@@ -643,7 +622,7 @@
                                         <span>4
                                             Person</span>
                                     </li>
-                                    <li><a href="book-taxi.html" class="default-btn">Book
+                                    <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                             Taxi
                                             Now</a></li>
                                 </ul>
@@ -653,16 +632,16 @@
                 </div>
             <div class="tab-pane fade" id="luxury-sedan" role="tabpanel" aria-labelledby="luxury-sedan">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Lincoln_Aviator.png" alt="car">
-                                    <div class="price">$2.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Lincoln Aviator</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Lincoln Aviator</a></h3>
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -683,22 +662,22 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Lincoln_Nautilus.png" alt="car">
-                                    <div class="price">$3.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Lincoln Nautilus </a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Lincoln Nautilus </a></h3>
                                 <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -719,24 +698,23 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Lincoln_MKT.png" alt="car">
-                                    <div class="price">$4.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Lincoln MKT</a></h3>
-                                <span class="location">New
-                                    York</span>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Lincoln MKT</a></h3>
+                                
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -756,7 +734,7 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
@@ -764,16 +742,16 @@
                     </div>
                 </div>
                 <div class="row mt-15">
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Lincoln-continental.png" alt="car">
-                                    <div class="price">$2.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Lincoln Continental</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Lincoln Continental</a></h3>
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -794,22 +772,22 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Cadillac_CT-6.png" alt="car">
-                                    <div class="price">$3.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Cadillac CT-6 </a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Cadillac CT-6 </a></h3>
                                 <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -830,24 +808,23 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/luxury_sedan/Cadillac_XTS.png" alt="car">
-                                    <div class="price">$4.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Cadillac XTS</a></h3>
-                                <span class="location">New
-                                    York</span>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Cadillac XTS</a></h3>
+                                
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -867,7 +844,7 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
@@ -877,16 +854,16 @@
             </div>
             <div class="tab-pane fade" id="special-request" role="tabpanel" aria-labelledby="limousine-taxi">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/special_request/mercedes_maybach.png" alt="car">
-                                    <div class="price">$2.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Mercedes Maybach</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Mercedes Maybach</a></h3>
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -907,22 +884,22 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/special_request/mercedes_Eclass.png" alt="car">
-                                    <div class="price">$3.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Mercedes E-Class</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Mercedes E-Class</a></h3>
                                 <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -943,24 +920,23 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/special_request/mercedes_sclass.png" alt="car">
-                                    <div class="price">$4.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Mercedes S-Class</a></h3>
-                                <span class="location">New
-                                    York</span>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Mercedes S-Class</a></h3>
+                                
                             </div>
                             <ul class="pricing-list">
                                 <li>Initial
@@ -980,7 +956,7 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
@@ -988,16 +964,16 @@
                     </div>
                 </div>
                 <div class="row mt-15">
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/special_request/rolls-royce-ghost.png" alt="car">
-                                    <div class="price">$2.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Rolls Royce Ghost</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Rolls Royce Ghost</a></h3>
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -1018,22 +994,22 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/special_request/Rolls-Royce-Phantom.png" alt="car">
-                                    <div class="price">$3.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Rolls Royce Phantom</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Rolls Royce Phantom</a></h3>
                                 <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -1054,7 +1030,7 @@
                                     <span>4
                                         Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
                                         Taxi
                                         Now</a></li>
                             </ul>
@@ -1065,16 +1041,16 @@
             </div>
             <div class="tab-pane fade" id="party-bus-content" role="tabpanel" aria-labelledby="party-bus">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/party_bus/mercedes_Sprinter.png" alt="car">
-                                    <div class="price">$2.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Mercedes Sprinter (14 pax)</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Mercedes Sprinter (14 pax)</a></h3>
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -1089,20 +1065,20 @@
                                 <li>Passengers:
                                     <span>4 Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 sm-padding">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
-                                <div class="pricing-car">
+                                <div class="pricing-car pricing-car-custom service-car">
                                     <img src="<?php echo BASE_URL; ?>assets/img/party_bus/Ford-transit.png" alt="car">
-                                    <div class="price">$2.50/km</div>
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
                             </div>
                             <div class="pricing-head">
-                                <h3><a href="taxi-details.html">Ford Transit Executive (15 pax)</a></h3>
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">Ford Transit Executive (15 pax)</a></h3>
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
@@ -1117,7 +1093,7 @@
                                 <li>Passengers:
                                     <span>4 Person</span>
                                 </li>
-                                <li><a href="book-taxi.html" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1267,7 +1243,7 @@
                             <div class="swiper-slide">
                                 <div class="testi-item">
                                     <div class="quote-icon"><i class="las la-quote-right"></i></div>
-                                    <p>I needed a ride home late at night, and XYZ Taxis was there for me. The driver was friendly and ensured I reached home safely. Their 24/7 service is a lifesaver, and I recommend them to anyone in need of a reliable late-night ride.</p>
+                                    <p>I needed a ride home late at night, and American Platinum Limousine Taxis was there for me. The driver was friendly and ensured I reached home safely. Their 24/7 service is a lifesaver, and I recommend them to anyone in need of a reliable late-night ride.</p>
                                     <div class="testi-author">
                                         <!-- <div class="author-thumb"><img src="assets/img/comment-1.png" alt="author"></div> -->
                                         <div class="author-info">
@@ -1279,7 +1255,7 @@
                             <div class="swiper-slide">
                                 <div class="testi-item">
                                     <div class="quote-icon"><i class="las la-quote-right"></i></div>
-                                    <p>Our company has been partnering with XYZ Taxis for our corporate travel needs, and they have consistently delivered exceptional service. Their dedicated corporate program ensures smooth coordination and reliable transportation for our team.</p>
+                                    <p>Our company has been partnering with American Platinum Limousine Taxis for our corporate travel needs, and they have consistently delivered exceptional service. Their dedicated corporate program ensures smooth coordination and reliable transportation for our team.</p>
                                     <div class="testi-author">
                                         <!-- <div class="author-thumb"><img src="assets/img/comment-1.png" alt="author"></div> -->
                                         <div class="author-info">

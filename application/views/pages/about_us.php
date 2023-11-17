@@ -1,23 +1,3 @@
-<div id="popup-sidebox" class="popup-sidebox">
-    <div class="sidebox-content">
-        <div class="site-logo">
-            <a href="index.html"><img src="assets/img/logo-light.png" alt="logo" /></a>
-        </div>
-        <p>Everything your taxi business needs is
-            already here! Ridek, a theme
-            made for taxi service companies.</p>
-        <ul class="sidebox-list">
-            <li class="call"><span>Call for ride:</span>5267-214-392</li>
-            <li>
-                <span>You can find us at:</span>Halk
-                Street New York, USA - 2386
-            </li>
-            <li><span>Email now:</span><a href="https://html.dynamiclayers.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="">info@xyz.com</a></li>
-        </ul>
-    </div>
-</div>
-
-<div id="sidebox-overlay"></div>
 <section class="page-header">
     <div class="page-header-shape"></div>
     <div class="container">
@@ -371,371 +351,55 @@
                                                         faq-accordion" id="faq-accordion">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What
-                                makes
-                                a
-                                good
-                                taxi
-                                service?</button>
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How do I book a taxi through your website?</button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse
-                                                                        collapse
-                                                                        show" aria-labelledby="headingOne" data-bs-parent="#faq-accordion">
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faq-accordion">
                             <div class="accordion-body">
-                                <p>The
-                                    restaurants
-                                    in
-                                    Hangzhou
-                                    also
-                                    catered
-                                    to
-                                    many
-                                    northern
-                                    Chinese
-                                    who
-                                    had
-                                    fled
-                                    south
-                                    from
-                                    Kaifeng
-                                    during
-                                    the
-                                    Jurchen
-                                    invasion
-                                    of
-                                    the
-                                    1120s,
-                                    while
-                                    it
-                                    is
-                                    also
-                                    known
-                                    that
-                                    many
-                                    restaurants
-                                    were
-                                    run
-                                    by
-                                    families.
-                                    The
-                                    restaurants
-                                    in
-                                    Hangzhou
-                                    also
-                                    catered
-                                    to
-                                    many
-                                    northern
-                                    Chinese
-                                    who
-                                    had
-                                    fled
-                                    south
-                                    from
-                                    Kaifeng
-                                    during
-                                    the
-                                    Jurchen
-                                    invasion.</p>
+                                <p>Booking a taxi is easy! Simply visit our website or use our mobile app, enter your pickup and drop-off locations, select the type of vehicle you need, and confirm your booking. You'll receive instant confirmation details.</p>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button
-                                                                                collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What
-                                is
-                                the
-                                purpose
-                                of
-                                a
-                                taxi
-                                service?
-                            </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#headingTwo" aria-expanded="false" aria-controls="headingTwo">Can I book a taxi for immediate pickup?</button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse
-                                                                        collapse" aria-labelledby="headingTwo" data-bs-parent="#faq-accordion">
+                        <div id="headingTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faq-accordion">
                             <div class="accordion-body">
-                                <p>The
-                                    restaurants
-                                    in
-                                    Hangzhou
-                                    also
-                                    catered
-                                    to
-                                    many
-                                    northern
-                                    Chinese
-                                    who
-                                    had
-                                    fled
-                                    south
-                                    from
-                                    Kaifeng
-                                    during
-                                    the
-                                    Jurchen
-                                    invasion
-                                    of
-                                    the
-                                    1120s,
-                                    while
-                                    it
-                                    is
-                                    also
-                                    known
-                                    that
-                                    many
-                                    restaurants
-                                    were
-                                    run
-                                    by
-                                    families.
-                                    The
-                                    restaurants
-                                    in
-                                    Hangzhou
-                                    also
-                                    catered
-                                    to
-                                    many
-                                    northern
-                                    Chinese
-                                    who
-                                    had
-                                    fled
-                                    south
-                                    from
-                                    Kaifeng
-                                    during
-                                    the
-                                    Jurchen
-                                    invasion.</p>
+                                <p>Yes, you can! Our website and app allow you to book a taxi for immediate pickup or schedule a ride for later. We strive to provide flexibility to meet your travel needs.</p>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button
-                                                                                collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                How
-                                to
-                                download
-                                the
-                                ridek
-                                taxi
-                                app
-                                online?
-                            </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What types of vehicles are available for booking?</button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse
                                                                         collapse" aria-labelledby="headingThree" data-bs-parent="#faq-accordion">
                             <div class="accordion-body">
-                                <p>The
-                                    restaurants
-                                    in
-                                    Hangzhou
-                                    also
-                                    catered
-                                    to
-                                    many
-                                    northern
-                                    Chinese
-                                    who
-                                    had
-                                    fled
-                                    south
-                                    from
-                                    Kaifeng
-                                    during
-                                    the
-                                    Jurchen
-                                    invasion
-                                    of
-                                    the
-                                    1120s,
-                                    while
-                                    it
-                                    is
-                                    also
-                                    known
-                                    that
-                                    many
-                                    restaurants
-                                    were
-                                    run
-                                    by
-                                    families.
-                                    The
-                                    restaurants
-                                    in
-                                    Hangzhou
-                                    also
-                                    catered
-                                    to
-                                    many
-                                    northern
-                                    Chinese
-                                    who
-                                    had
-                                    fled
-                                    south
-                                    from
-                                    Kaifeng
-                                    during
-                                    the
-                                    Jurchen
-                                    invasion.</p>
+                                <p>Our fleet includes a variety of vehicles to suit your preferences and group size. Choose from Luxury Sedans, Luxury SUVs, Stretch Limousine, Party Bus, and more. Details about each vehicle type are available during the booking process.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button
-                                                                                collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                What
-                                Should
-                                I
-                                be
-                                Asking
-                                For
-                                first
-                                ride?
-                            </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">How can I pay for my taxi ride?</button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse
                                                                         collapse" aria-labelledby="headingFour" data-bs-parent="#faq-accordion">
                             <div class="accordion-body">
-                                <p>The
-                                    restaurants
-                                    in
-                                    Hangzhou
-                                    also
-                                    catered
-                                    to
-                                    many
-                                    northern
-                                    Chinese
-                                    who
-                                    had
-                                    fled
-                                    south
-                                    from
-                                    Kaifeng
-                                    during
-                                    the
-                                    Jurchen
-                                    invasion
-                                    of
-                                    the
-                                    1120s,
-                                    while
-                                    it
-                                    is
-                                    also
-                                    known
-                                    that
-                                    many
-                                    restaurants
-                                    were
-                                    run
-                                    by
-                                    families.
-                                    The
-                                    restaurants
-                                    in
-                                    Hangzhou
-                                    also
-                                    catered
-                                    to
-                                    many
-                                    northern
-                                    Chinese
-                                    who
-                                    had
-                                    fled
-                                    south
-                                    from
-                                    Kaifeng
-                                    during
-                                    the
-                                    Jurchen
-                                    invasion.</p>
+                                <p>We offer various payment options, including credit/debit cards and digital wallets. Cash payments are also accepted in select locations. You can choose your preferred payment method during the booking process.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
-                            <button class="accordion-button
-                                                                                collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                How
-                                Many
-                                cars
-                                does
-                                ridek
-                                taxi
-                                service
-                                Have?
-                            </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Are there any additional fees for luggage or extra passengers?</button>
                         </h2>
-                        <div id="collapseFive" class="accordion-collapse
-                                                                        collapse" aria-labelledby="headingFive" data-bs-parent="#faq-accordion">
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faq-accordion">
                             <div class="accordion-body">
-                                <p>The
-                                    restaurants
-                                    in
-                                    Hangzhou
-                                    also
-                                    catered
-                                    to
-                                    many
-                                    northern
-                                    Chinese
-                                    who
-                                    had
-                                    fled
-                                    south
-                                    from
-                                    Kaifeng
-                                    during
-                                    the
-                                    Jurchen
-                                    invasion
-                                    of
-                                    the
-                                    1120s,
-                                    while
-                                    it
-                                    is
-                                    also
-                                    known
-                                    that
-                                    many
-                                    restaurants
-                                    were
-                                    run
-                                    by
-                                    families.
-                                    The
-                                    restaurants
-                                    in
-                                    Hangzhou
-                                    also
-                                    catered
-                                    to
-                                    many
-                                    northern
-                                    Chinese
-                                    who
-                                    had
-                                    fled
-                                    south
-                                    from
-                                    Kaifeng
-                                    during
-                                    the
-                                    Jurchen
-                                    invasion.</p>
+                                <p>Our pricing includes standard luggage and a specified number of passengers. Additional fees may apply for excessive luggage or passengers beyond the vehicle's capacity. Details are provided during the booking process.</p>
                             </div>
                         </div>
                     </div>
