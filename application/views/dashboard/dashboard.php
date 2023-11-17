@@ -152,7 +152,7 @@
                     <li>
                         <h2><span>Call
                                 For
-                                Taxi</span><a href="tel:00000">000-00-000</a></h2>
+                                Taxi</span><a href="tel:<?php echo WEBSITE_NUMBER ?>"><?php echo WEBSITE_NUMBER ?></a></h2>
                     </li>
 
                 </ul>

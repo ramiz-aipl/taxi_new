@@ -70,7 +70,7 @@
                                                 </li>
                                         </ul>
                                         
-                                        <div class="service-details-list">
+                                        <!-- <div class="service-details-list">
                                                 <img src="<?php echo BASE_URL; ?>assets/img/airport_service/2.jpg" alt="img">
                                                 <div>
                                                         <h3>Key Features</h3>
@@ -80,7 +80,7 @@
                                                                 <li><i class="las la-hand-point-right"></i>Spacious vehicles for all your luggage needs</li>
                                                         </ul>
                                                 </div>
-                                        </div>
+                                        </div> -->
                                 </div>
                         </div>
                         <div class="col-lg-4 sm-padding">

@@ -43,17 +43,17 @@
 <p>We respect your privacy and provide a secure environment for confidential discussions during your ride.</p>
 
                                         </p>
-                                        <div class="service-details-list">
+                                        <!-- <div class="service-details-list">
                                                 <img src="<?php echo BASE_URL; ?>assets/img/business_service/2.jpg" alt="img">
                                                 <div> 
-                                                        <!-- <h3>Key Features</h3>
+                                                        <h3>Key Features</h3>
                                                         <ul class="service-icon-list">
                                                                 <li><i class="las la-hand-point-right"></i>On-time arrivals to maintain your schedule</li>
                                                                 <li><i class="las la-hand-point-right"></i> Discreet and professional chauffeurs</li>
                                                                 <li><i class="las la-hand-point-right"></i>Comfortable vehicles for corporate groups of all sizes</li>
-                                                        </ul> -->
+                                                        </ul>
                                                 </div>
-                                        </div>
+                                        </div> -->
                                 </div>
                         </div>
                         <div class="col-lg-4 sm-padding">
