@@ -152,7 +152,7 @@
                     <li>
                         <h2><span>Call
                                 For
-                                Taxi</span><a href="tel:<?php echo WEBSITE_NUMBER ?>"><?php echo WEBSITE_NUMBER ?></a></h2>
+                                Limo</span><a href="tel:<?php echo WEBSITE_NUMBER ?>"><?php echo WEBSITE_NUMBER ?></a></h2>
                     </li>
 
                 </ul>
@@ -261,105 +261,8 @@
     </div>
 </section>
 
-<section class="booking-section">
-    <div class="container">
-        <div class="row pos-relative padding">
-            <div class="col-lg-4">
-                <div class="booking-car wow
-                                                        fade-in-left" data-wow-delay="200ms"></div>
-            </div>
-            <div class="col-lg-8">
-                <div class="booking-wrap">
-                    <div class="section-heading
-                                                                mb-30">
-                        <h4><span></span>Online
-                            Booking</h4>
-                        <h2 class="white">Book
-                            Your
-                            Taxi
-                            Ride</h2>
-                    </div>
-                    <form action="https://html.dynamiclayers.net/dl/ridek/book-ride.php" id="book-taxi-ride">
-                        <div class="booking-form">
-                            <div class="form-field">
-                                <i class="las
-                                                                                        la-user-tie"></i>
-                                <input type="text" id="full-name" name="full-name" class="form-control" placeholder="Your
-                                                                                        Name" required>
-                            </div>
-                            <div class="form-field">
-                                <i class="las
-                                                                                        la-envelope-open"></i>
-                                <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
-                            </div>
-                            <div class="form-field">
-                                <i class="las
-                                                                                        la-tags"></i>
-                                <select name="package-type" id="type" class="niceSelect">
-                                    <option value="standard">Standard</option>
-                                    <option value="business">Business</option>
-                                    <option value="economy">Economy</option>
-                                    <option value="vip-spacial">VIP
-                                        Spacial</option>
-                                    <option value="comfort">Comfort</option>
-                                </select>
-                            </div>
-                            <div class="form-field">
-                                <i class="las
-                                                                                        la-user-friends"></i>
-                                <select name="passengers" id="passengers" class="niceSelect">
-                                    <option value="1">1
-                                        Person</option>
-                                    <option value="2">2
-                                        Person</option>
-                                    <option value="3">3
-                                        Person</option>
-                                    <option value="4">4
-                                        Person</option>
-                                    <option value="5">5
-                                        Person</option>
-                                </select>
-                            </div>
-                            <div class="form-field">
-                                <i class="las
-                                                                                        la-map-marker"></i>
-                                <input type="text" id="start-dest" name="start-dest" class="form-control" placeholder="Start
-                                                                                        Destination" required>
-                            </div>
-                            <div class="form-field">
-                                <i class="las
-                                                                                        la-map-marker"></i>
-                                <input type="text" id="end-dest" name="end-dest" class="form-control" placeholder="End
-                                                                                        Destination" required>
-                            </div>
-                            <div class="form-field">
-                                <i class="las
-                                                                                        la-calendar"></i>
-                                <input type="text" id="ride-date" name="ride-date" class="form-control
-                                                                                        date-picker" placeholder="Select
-                                                                                        Date" required>
-                            </div>
-                            <div class="form-field">
-                                <i class="las
-                                                                                        la-clock"></i>
-                                <input type="text" id="ride-time" name="ride-time" class="form-control
-                                                                                        time-picker" placeholder="Select
-                                                                                        Time" required>
-                            </div>
-                            <div class="form-field">
-                                <button id="submit" class="default-btn" type="submit">Book
-                                    Your
-                                    Taxi</button>
-                            </div>
-                        </div>
-                        <div id="form-messages" class="alert" role="alert"></div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="pricing-section bg-grey bd-bottom padding">
+
+<section class="pricing-section bg-grey bd-bottom ">
     <div class="container">
         <div class="section-heading text-center mb-40
                                         wow fade-in-bottom" data-wow-delay="200ms">
@@ -378,11 +281,12 @@
                 <button class="nav-link" id="town-taxt" data-bs-toggle="tab" data-bs-target="#luxury-sedan" type="button" role="tab" aria-controls="luxury-sedan" aria-selected="false">Luxury Sedan</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="limousine-taxi" data-bs-toggle="tab" data-bs-target="#special-request" type="button" role="tab" aria-controls="special-request" aria-selected="false">Special Request </button>
-            </li>
-            <li class="nav-item" role="presentation">
                 <button class="nav-link" id="party-bus" data-bs-toggle="tab" data-bs-target="#party-bus-content" type="button" role="tab" aria-controls="party-bus-content" aria-selected="false">Party Bus </button>
             </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="limousine-taxi" data-bs-toggle="tab" data-bs-target="#special-request" type="button" role="tab" aria-controls="special-request" aria-selected="false">Special Request </button>
+            </li>
+           
             <!-- <li class="nav-item" role="presentation">
                 <button class="nav-link" id="limousine-taxi" data-bs-toggle="tab" data-bs-target="#special-request" type="button" role="tab" aria-controls="party-taxi-content" aria-selected="false">Party Buses</button>
             </li> -->
@@ -415,7 +319,7 @@
                                 </li>
                                 <li>Passengers: <span>4 Person</span>
                                 </li>
-                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -443,7 +347,7 @@
                                 </li>
                                 <li>Passengers: <span>4 Person</span>
                                 </li>
-                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -471,7 +375,7 @@
                                 </li>
                                 <li>Passengers: <span>4 Person</span>
                                 </li>
-                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -511,7 +415,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -547,7 +451,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -583,7 +487,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -623,7 +527,7 @@
                                             Person</span>
                                     </li>
                                     <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                            Taxi
+                                            Limo
                                             Now</a></li>
                                 </ul>
                             </div>
@@ -663,7 +567,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -699,7 +603,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -735,7 +639,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -773,7 +677,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -809,7 +713,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -845,7 +749,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -885,7 +789,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -921,7 +825,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -957,7 +861,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -995,7 +899,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -1031,7 +935,7 @@
                                         Person</span>
                                 </li>
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Taxi
+                                        Limo
                                         Now</a></li>
                             </ul>
                         </div>
@@ -1065,7 +969,7 @@
                                 <li>Passengers:
                                     <span>4 Person</span>
                                 </li>
-                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1093,7 +997,7 @@
                                 <li>Passengers:
                                     <span>4 Person</span>
                                 </li>
-                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1177,7 +1081,7 @@
     </div>
 </section> -->
 
-<section class="testimonial-section bg-grey">
+<section class="testimonial-section bg-grey padding">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
@@ -1369,7 +1273,88 @@
         </div>
     </div>
 </section>
-
+<section class="booking-section">
+    <div class="container">
+        <div class="row pos-relative padding">
+            <div class="col-lg-4">
+                <div class="booking-car wow
+                                                        fade-in-left" data-wow-delay="200ms"></div>
+            </div>
+            <div class="col-lg-8">
+                <div class="booking-wrap">
+                    <div class="section-heading mb-30">
+                        <h4><span></span>Online Booking</h4>
+                        <h2 class="white">Book Your Limo Ride</h2>
+                    </div>
+                    <form action="https://html.dynamiclayers.net/dl/ridek/book-ride.php" id="book-taxi-ride">
+                        <div class="booking-form">
+                            <div class="form-field">
+                                <i class="las la-user-tie"></i>
+                                <input type="text" id="full-name" name="full-name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-field">
+                                <i class="las la-phone"></i>
+                                <input type="text" id="mobile" name="mobile" class="form-control" placeholder="Mobile" required>
+                            </div>
+                            <!-- <div class="form-field">
+                                <i class="las la-envelope-open"></i>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                            </div> -->
+                            <div class="form-field">
+                                <i class="las la-tags"></i>
+                                <select name="package-type" id="type" class="niceSelect">
+                                    <option value="standard">Standard</option>
+                                    <option value="business">Business</option>
+                                    <option value="economy">Economy</option>
+                                    <option value="vip-spacial">VIP
+                                        Spacial</option>
+                                    <option value="comfort">Comfort</option>
+                                </select>
+                            </div>
+                            <div class="form-field">
+                                <i class="las la-user-friends"></i>
+                                <select name="passengers" id="passengers" class="niceSelect">
+                                    <option value="1">1
+                                        Person</option>
+                                    <option value="2">2
+                                        Person</option>
+                                    <option value="3">3
+                                        Person</option>
+                                    <option value="4">4
+                                        Person</option>
+                                    <option value="5">5
+                                        Person</option>
+                                </select>
+                            </div>
+                            <div class="form-field">
+                                <i class="las la-map-marker"></i>
+                                <input type="text" id="start-dest" name="start-dest" class="form-control" placeholder="Start Destination" required>
+                            </div>
+                            <div class="form-field">
+                                <i class="las la-map-marker"></i>
+                                <input type="text" id="end-dest" name="end-dest" class="form-control" placeholder="End Destination" required>
+                            </div>
+                            <div class="form-field">
+                                <i class="las la-calendar"></i>
+                                <input type="text" id="ride-date" name="ride-date" class="form-control date-picker" placeholder="Select Date" required>
+                            </div>
+                            <div class="form-field">
+                                <i class="las la-clock"></i>
+                                <input type="text" id="ride-time" name="ride-time" class="form-controltime-picker" placeholder="SelectTime" required>
+                            </div>
+                            <div class="form-field">
+                                <button id="submit" class="default-btn" type="submit">Book
+                                    Your
+                                    Limo</button>
+                            </div>
+                        </div>
+                        <div id="form-messages" class="alert" role="alert"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- <section class="cta-section padding">
     <div class="cta-men wow fade-in-bottom" data-wow-delay="200ms"></div>
     <div class="container">

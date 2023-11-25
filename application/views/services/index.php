@@ -2,7 +2,7 @@
     <div class="page-header-shape"></div>
     <div class="container">
         <div class="page-header-info">
-            <h4>Our Taxi Lists</h4>
+            <h4>Our Limo Lists</h4>
             <h2>Feel your journey <br> with <span>American Platinum Limousine!</span></h2>
             <p>Everything your taxi business <br>needs
                 is already here! </p>
@@ -45,7 +45,7 @@
                         </li>
                         <li>Passengers: <span>4 Person</span>
                         </li>
-                        <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
+                        <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                     </ul>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                         </li>
                         <li>Passengers: <span>4 Person</span>
                         </li>
-                        <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
+                        <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                     </ul>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                         </li>
                         <li>Passengers: <span>4 Person</span>
                         </li>
-                        <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
+                        <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                     </ul>
                 </div>
             </div>
@@ -138,7 +138,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -174,7 +174,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -210,7 +210,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -248,7 +248,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -284,7 +284,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -320,7 +320,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -358,7 +358,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -394,7 +394,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -430,7 +430,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -468,7 +468,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -504,7 +504,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -540,7 +540,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -578,7 +578,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -614,7 +614,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -650,7 +650,7 @@
                                 Person</span>
                         </li>
                         <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                Taxi
+                                Limo
                                 Now</a></li>
                     </ul>
                 </div>
@@ -681,7 +681,7 @@
                         <li>Passengers:
                             <span>4 Person</span>
                         </li>
-                        <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
+                        <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                     </ul>
                 </div>
             </div>
@@ -709,7 +709,7 @@
                         <li>Passengers:
                             <span>4 Person</span>
                         </li>
-                        <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Taxi Now</a></li>
+                        <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                     </ul>
                 </div>
             </div>

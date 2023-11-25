@@ -618,7 +618,8 @@
     background-image: url(../img/texture.png);
     background-repeat: repeat;
     background-size: cover;
-    background-color: #222;
+    /* background-color: #222; */
+    background-color: #2222227d;
     position: relative;
     z-index: 1
 }
@@ -649,11 +650,11 @@
     background-image: url(../img/car-2.png);
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 85%;
+    background-size: 65%;
     width: 780px;
     height: 439px;
     position: absolute;
-    left: -280px;
+    left: -123px;
     top: 50px;
     z-index: -1
 }
@@ -2286,7 +2287,7 @@ textarea:-ms-input-placeholder {
 .pricing-car-custom {
     right: 78px;
     bottom: -32px;
-    max-width: 332px;
+    max-width: 366px;
     transition: all .3s cubic-bezier(.165, .85, .45, 1);
 }
 

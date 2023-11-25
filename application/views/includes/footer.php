@@ -16,7 +16,7 @@
                                                                                 la-phone-volume"></i>
                                                         <p><span>Call
                                                                         For
-                                                                        Taxi</span><a href="tel:<?php echo WEBSITE_NUMBER ?>"><?php echo WEBSITE_NUMBER ?></a></p>
+                                                                        Limo</span><a href="tel:<?php echo WEBSITE_NUMBER ?>"><?php echo WEBSITE_NUMBER ?></a></p>
                                                 </div>
                                         </div>
                                 </div>
@@ -57,7 +57,7 @@
                                                                 Links</h3>
                                                 </div>
                                                 <ul class="footer-links">
-                                                        <li><a href="<?php echo base_url('book-taxi') ?>">Taxi Booking</a></li>
+                                                        <li><a href="<?php echo base_url('book-taxi') ?>">Limo Booking</a></li>
                                                         <li><a href="<?php echo base_url('services') ?>">Our Fleet</a></li>
                                                         <li><a href="<?php echo base_url('about-us') ?>">About Us</a></li>
                                                         <li><a href="<?php echo base_url('contact-us') ?>">Contact Us</a></li>

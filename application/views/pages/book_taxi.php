@@ -20,6 +20,10 @@
                             <input type="text" id="full-name" name="full-name" class="form-control" placeholder="Your Name" required="" fdprocessedid="gzjb15">
                         </div>
                         <div class="form-field">
+                            <i class="las la-phone"></i>
+                            <input type="text" id="mobile" name="mobile" class="form-control" placeholder="Mobile" required="" fdprocessedid="yphfyn">
+                        </div>
+                        <div class="form-field">
                             <i class="las la-envelope-open"></i>
                             <input type="email" id="email" name="email" class="form-control" placeholder="Email" required="" fdprocessedid="yphfyn">
                         </div>
@@ -78,7 +82,7 @@
                             <input type="text" id="ride-time" name="ride-time" class="form-control time-picker" placeholder="Select Time" required="" fdprocessedid="a7qmb9">
                         </div>
                         <div class="form-field">
-                            <button id="submit" class="default-btn" type="submit" fdprocessedid="qpr1fn">Book Your Taxi</button>
+                            <button id="submit" class="default-btn" style="width:100%;" type="submit" fdprocessedid="qpr1fn">Book Your Limo</button>
                         </div>
                     </div>
                     <div id="form-messages" class="alert" role="alert"></div>

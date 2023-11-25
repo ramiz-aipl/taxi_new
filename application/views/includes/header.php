@@ -11,7 +11,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="American Platinum Limousine Online Taxi Booking">
+    <meta name="description" content="American Platinum Limousine Online Limo Booking">
     <meta name="author" content="DynamicLayers">
     <title><?php echo ($page_title) ? $page_title : WEBSITE_NAME; ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL; ?>assets/img/favicon.png">
@@ -54,7 +54,7 @@
             <div class="container">
                 <div class="top-header-wrap">
                     <div class="top-left">
-                        <p>Reliable Taxi Service & Transport Solutions!</p>
+                        <p>Reliable Limo Service & Transport Solutions!</p>
                     </div>
                     <div class="top-right">
                         <ul class="top-header-nav">
@@ -125,9 +125,29 @@
                             <li class="<?php echo ($this->uri->segment(1) == 'about-us') ? 'active' : '' ?>" >
                                 <a href="<?php echo base_url('about-us'); ?>">About Us</a>
                             </li>
-                            <li class="<?php echo ($this->uri->segment(1) == 'services') ? 'active' : '' ?>">
-                                <a href="<?php echo base_url('services'); ?>">Our Fleet</a>
+                            <li class="dropdown_menu <?php echo ($this->uri->segment(1) == 'our-fleet') ? 'active' : '' ?>"> 
+                                <a href="javascript:;">Our Fleet</a>
+                                <ul>
+                                    <li>
+                                        <a href="<?php echo base_url('our-fleet/strtch-limousine'); ?>">Stretch Limousine</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php echo base_url('our-fleet/luxury-suv'); ?>">Luxury SUV</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php echo base_url('our-fleet/luxury-sedan'); ?>">Luxury Sedan</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php echo base_url('our-fleet/party-bus'); ?>">Party Bus</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php echo base_url('our-fleet/special-request'); ?>">Special Request</a>
+                                    </li>
+                                </ul>
                             </li>
+                            <!-- <li class="<?php echo ($this->uri->segment(1) == 'services') ? 'active' : '' ?>">
+                                <a href="<?php echo base_url('services'); ?>">Our Fleet</a>
+                            </li> -->
                             <!-- <li class="dropdown_menu">
                                 <a href="about-us.html">Company</a>
                                 <ul>
@@ -139,10 +159,10 @@
                                 </ul>
                             </li> -->
                             <!-- <li class="dropdown_menu">
-                                <a href="our-taxi.html">Our Taxi</a>
+                                <a href="our-taxi.html">Our Limo</a>
                                 <ul>
-                                    <li><a href="our-taxi.html">Taxi Lists</a></li>
-                                    <li><a href="taxi-details.html">Taxi Details</a></li>
+                                    <li><a href="our-taxi.html">Limo Lists</a></li>
+                                    <li><a href="taxi-details.html">Limo Details</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown_menu">
@@ -173,7 +193,7 @@
                         <div class="sidebox-icon dl-sidebox-icon">
                             <i class="las la-bars"></i>
                         </div>
-                        <a href="<?php echo base_url('book-taxi') ?>" class="menu-btn">Book a Taxi</a>
+                        <a href="<?php echo base_url('book-taxi') ?>" class="menu-btn">Book a Limo</a>
                     </div>
                     <div class="mobile-menu-icon">
                         <div class="burger-menu">
