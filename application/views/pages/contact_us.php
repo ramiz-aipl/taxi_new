@@ -2,10 +2,10 @@
         <div class="page-header-shape"></div>
         <div class="container">
                 <div class="page-header-info">
-                        <h4>Our Taxi Lists</h4>
+                        <!-- <h4>Our Taxi Lists</h4> -->
                         <h2>Feel your journey <br> with <span>American Platinum Limousine!</span></h2>
-                        <p>Everything your taxi business <br>needs
-                                is already here! </p>
+                        <!-- <p>Everything your taxi business <br>needs
+                                is already here! </p> -->
                 </div>
         </div>
 </section>
@@ -19,7 +19,7 @@
                                                 <h2>Have Any
                                                         <span>Questions?</span>
                                                 </h2>
-                                                <p>Get in touch
+                                                <!-- <p>Get in touch
                                                         to
                                                         discuss
                                                         your
@@ -35,24 +35,16 @@
                                                         or fill
                                                         out the
                                                         contact
-                                                        form.</p>
+                                                        form.</p> -->
                                         </div>
                                         <ul class="contact-details">
                                                 <li><i class="fas
-                                                                                fa-map-marker-alt"></i>962
-                                                        Fifth
-                                                        Avenue,<br>
-                                                        New
-                                                        York,
-                                                        NY10022</li>
+                                                                                fa-map-marker-alt"></i>Chicago</li>
                                                 <li><i class="fas
-                                                                                fa-envelope"></i><a href="https://html.dynamiclayers.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d9b1bcb5b5b699adb1bcb4bcb8aaadbcabf7b7bcad">info@xyz.com</a>
-                                                        <br><a href="https://html.dynamiclayers.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5a03352f28373b33361a3d373b333674393537">info@xyz.com</a>
+                                                                                fa-envelope"></i><a href="https://html.dynamiclayers.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail=""><?php echo WEBSITE_EMAIL ?></a>
                                                 </li>
                                                 <li><i class="fas
-                                                                                fa-phone"></i>(+123)
-                                                        456 789
-                                                        101 <br>+1-302-123-4567</li>
+                                                                                fa-phone"></i><?php echo WEBSITE_NUMBER ?></li>
                                         </ul>
                                 </div>
                         </div>

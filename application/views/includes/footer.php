@@ -27,7 +27,7 @@
         <div class="footer-mid-wrap">
                 <div class="container">
                         <div class="row">
-                                <div class="col-lg-3 col-md-6
+                                <div class="col-lg-4 col-md-6
                                                         sm-padding">
                                         <div class="footer-item">
                                                 <div class="widget-title">
@@ -35,20 +35,12 @@
                                                                 Hours</h3>
                                                 </div>
                                                 <ul class="footer-contact">
-                                                        <li><span>Monday
-                                                                        -
-                                                                        Friday:</span>9.00am
-                                                                To
-                                                                8.00pm</li>
-                                                        <li><span>Saturday:</span>10.00am
-                                                                To
-                                                                7.30pm</li>
-                                                        <li><span>Sunday:</span>Close
-                                                                Day!</li>
+                                                        <li><img src="<?php echo BASE_URL; ?>assets/img/24_7.png" width="154"></li>
+                                                        
                                                 </ul>
                                         </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6
+                                <div class="col-lg-4 col-md-6
                                                         sm-padding">
                                         <div class="footer-item
                                                                 footer-list">
@@ -64,7 +56,7 @@
                                                 </ul>
                                         </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6
+                                <div class="col-lg-4 col-md-6
                                                         sm-padding">
                                         <div class="footer-item">
                                                 <div class="widget-title">
@@ -72,18 +64,13 @@
                                                                 Office</h3>
                                                 </div>
                                                 <ul class="footer-contact">
-                                                        <li><span>Location:</span>153
-                                                                Williamson
-                                                                Plaza,
-                                                                Maggieberg,
-                                                                MT
-                                                                09514</li>
+                                                        <li><span>Location:</span>Chicago</li>
                                                         <li><span>Join
                                                                         Us:</span><a href="mailto:<?php echo WEBSITE_EMAIL ?>" class="__cf_email__" style="color:#fff;" data-cfemail=""><?php echo WEBSITE_EMAIL ?></a></li>
                                                 </ul>
                                         </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6
+                                <!-- <div class="col-lg-3 col-md-6
                                                         sm-padding">
                                         <div class="footer-item
                                                                 subscribe-wrap">
@@ -104,7 +91,7 @@
                                                         </div>
                                                 </form>
                                         </div>
-                                </div>
+                                </div> -->
                         </div>
                 </div>
                 <!-- <div class="running-taxi">

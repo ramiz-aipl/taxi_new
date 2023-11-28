@@ -92,7 +92,7 @@
                                 <i class="las la-envelope-open"></i>
                             </div>
                             <div class="header-info-text">
-                                <h3><span>Email now</span><a href="mailto:<?php echo WEBSITE_EMAIL ?>" class="__cf_email__" data-cfemail=""><?php echo WEBSITE_EMAIL ?></a></h3>
+                                <h3><span>Email now</span><a href="mailto:<?php echo WEBSITE_EMAIL ?>" class="__cf_email__" ><?php echo WEBSITE_EMAIL ?></a></h3>
                             </div>
                         </li>
                         <li>
@@ -100,7 +100,7 @@
                                 <i class="las la-map-marked-alt"></i>
                             </div>
                             <div class="header-info-text">
-                                <h3><span>Halk Street</span>New York, USA - 2386</h3>
+                                <h3><span>Location</span>Chicago</h3>
                             </div>
                         </li>
                     </ul>
@@ -129,16 +129,18 @@
                                 <a href="javascript:;">Our Fleet</a>
                                 <ul>
                                     <li>
-                                        <a href="<?php echo base_url('our-fleet/strtch-limousine'); ?>">Stretch Limousine</a>
+                                        <a href="<?php echo base_url('our-fleet/luxury-sedan'); ?>">Luxury Sedan</a>
                                     </li>
                                     <li>
                                         <a href="<?php echo base_url('our-fleet/luxury-suv'); ?>">Luxury SUV</a>
                                     </li>
                                     <li>
-                                        <a href="<?php echo base_url('our-fleet/luxury-sedan'); ?>">Luxury Sedan</a>
+                                        <a href="<?php echo base_url('our-fleet/strtch-limousine'); ?>">Stretch Limousine</a>
                                     </li>
+                                   
+                                    
                                     <li>
-                                        <a href="<?php echo base_url('our-fleet/party-bus'); ?>">Party Bus</a>
+                                        <a href="<?php echo base_url('our-fleet/party-bus'); ?>">Party & Executive Bus</a>
                                     </li>
                                     <li>
                                         <a href="<?php echo base_url('our-fleet/special-request'); ?>">Special Request</a>
@@ -235,8 +237,7 @@
             <ul class="sidebox-list">
                 <li class="call"><span>Call for ride:</span><?php echo WEBSITE_NUMBER ?></li>
                 <li>
-                    <span>You can find us at:</span>Halk
-                    Street New York, USA - 2386
+                    <span>You can find us at:</span>Chicago
                 </li>
                 <li><span>Email now:</span><a href="mailto:<?php echo WEBSITE_EMAIL ?>" style="color: #fff;" class="__cf_email__" data-cfemail=""><?php echo WEBSITE_NUMBER ?></a></li>
             </ul>

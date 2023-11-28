@@ -22,7 +22,7 @@
                                 <li><i class="las la-hand-point-right"></i>Party Buses: The ultimate party on wheels, perfect for prom nights and celebrations with large groups.</li> -->
                         </ul>
                 </div>
-                <div class="row">
+                <div class="row mt-15">
                     <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
                         <div class="pricing-item">
                             <div class="pricing-head-wrap">
@@ -36,26 +36,7 @@
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
-                                <li>Initial
-                                    Charge:
-                                    <span>$2.50</span>
-                                </li>
-                                <li>Per
-                                    Mile/KM:
-                                    <span>$4.20</span>
-                                </li>
-                                <li>Per
-                                    Stopped
-                                    Trafic:
-                                    <span>$1.50</span>
-                                </li>
-                                <li>Passengers:
-                                    <span>4
-                                        Person</span>
-                                </li>
-                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Limo
-                                        Now</a></li>
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -72,26 +53,8 @@
                                 <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
-                                <li>Initial
-                                    Charge:
-                                    <span>$2.50</span>
-                                </li>
-                                <li>Per
-                                    Mile/KM:
-                                    <span>$4.20</span>
-                                </li>
-                                <li>Per
-                                    Stopped
-                                    Trafic:
-                                    <span>$1.50</span>
-                                </li>
-                                <li>Passengers:
-                                    <span>4
-                                        Person</span>
-                                </li>
-                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Limo
-                                        Now</a></li>
+                              
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -108,26 +71,8 @@
                                 
                             </div>
                             <ul class="pricing-list">
-                                <li>Initial
-                                    Charge:
-                                    <span>$2.50</span>
-                                </li>
-                                <li>Per
-                                    Mile/KM:
-                                    <span>$4.20</span>
-                                </li>
-                                <li>Per
-                                    Stopped
-                                    Trafic:
-                                    <span>$1.50</span>
-                                </li>
-                                <li>Passengers:
-                                    <span>4
-                                        Person</span>
-                                </li>
-                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Limo
-                                        Now</a></li>
+                              
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -146,26 +91,8 @@
                                 <!--<span class="location">Chicago</span>-->
                             </div>
                             <ul class="pricing-list">
-                                <li>Initial
-                                    Charge:
-                                    <span>$2.50</span>
-                                </li>
-                                <li>Per
-                                    Mile/KM:
-                                    <span>$4.20</span>
-                                </li>
-                                <li>Per
-                                    Stopped
-                                    Trafic:
-                                    <span>$1.50</span>
-                                </li>
-                                <li>Passengers:
-                                    <span>4
-                                        Person</span>
-                                </li>
-                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Limo
-                                        Now</a></li>
+                              
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -182,26 +109,8 @@
                                 <!--<span class="location">Florida</span>-->
                             </div>
                             <ul class="pricing-list">
-                                <li>Initial
-                                    Charge:
-                                    <span>$2.50</span>
-                                </li>
-                                <li>Per
-                                    Mile/KM:
-                                    <span>$4.20</span>
-                                </li>
-                                <li>Per
-                                    Stopped
-                                    Trafic:
-                                    <span>$1.50</span>
-                                </li>
-                                <li>Passengers:
-                                    <span>4
-                                        Person</span>
-                                </li>
-                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book
-                                        Limo
-                                        Now</a></li>
+                              
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
                             </ul>
                         </div>
                     </div>

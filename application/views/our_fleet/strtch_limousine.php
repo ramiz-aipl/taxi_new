@@ -21,88 +21,61 @@
                         </ul>
                 </div>
                 <div class="row mt-15">
-                        <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms">
-                                <div class="pricing-item">
-                                        <div class="pricing-head-wrap">
-                                                <div class="pricing-car pricing-car-custom service-car">
-                                                        <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
-                                                        <!-- <div class="price">$2.50/km</div> -->
-                                                </div>
-                                        </div>
-                                        <div class="pricing-head">
-                                                <h3><a href="<?php echo base_url('book-taxi') ?>">10pax Stretch</a></h3>
-                                                <!--<span class="location">Chicago</span>-->
-                                        </div>
-                                        <ul class="pricing-list">
-                                                <li>Initial Charge:
-                                                        <span>$2.50</span>
-                                                </li>
-                                                <li>Per Mile/KM:
-                                                        <span>$4.20</span>
-                                                </li>
-                                                <li>Per Stopped Trafic:
-                                                        <span>$1.50</span>
-                                                </li>
-                                                <li>Passengers: <span>4 Person</span>
-                                                </li>
-                                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
-                                        </ul>
-                                </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
-                        <div class=" pricing-item">
-                                <div class="pricing-head-wrap">
-                                        <div class="pricing-car pricing-car-custom service-car">
-                                                <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
-                                                <!-- <div class="price">$2.50/km</div> -->
-                                        </div>
-                                </div>
-                                <div class="pricing-head">
-                                        <h3><a href="<?php echo base_url('book-taxi') ?>">14pax Stretch</a></h3>
-                                        <!--<span class="location">Chicago</span>-->
-                                </div>
-                                <ul class="pricing-list">
-                                        <li>Initial Charge:
-                                                <span>$2.50</span>
-                                        </li>
-                                        <li>Per Mile/KM:
-                                                <span>$4.20</span>
-                                        </li>
-                                        <li>Per Stopped Trafic:
-                                                <span>$1.50</span>
-                                        </li>
-                                        <li>Passengers: <span>4 Person</span>
-                                        </li>
-                                        <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
-                                </ul>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
-                        <div class=" pricing-item">
-                        <div class="pricing-head-wrap">
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms">
+                        <div class="pricing-item">
+                            <div class="pricing-head-wrap">
                                 <div class="pricing-car pricing-car-custom service-car">
-                                        <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
-                                        <!-- <div class="price">$2.50/km</div> -->
+                                    <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
+                                    <!-- <div class="price">$2.50/km</div> -->
                                 </div>
+                            </div>
+                            <div class="pricing-head">
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">10pax Stretch</a></h3>
+                                <!--<span class="location">Chicago</span>-->
+                            </div>
+                            <ul class="pricing-list">
+                                
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
+                            </ul>
                         </div>
-                        <div class="pricing-head">
+                    </div>
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
+                        <div class="pricing-item">
+                            <div class="pricing-head-wrap">
+                                <div class="pricing-car pricing-car-custom service-car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
+                                    <!-- <div class="price">$2.50/km</div> -->
+                                </div>
+                            </div>
+                            <div class="pricing-head">
+                                <h3><a href="<?php echo base_url('book-taxi') ?>">14pax Stretch</a></h3>
+                                <!--<span class="location">Chicago</span>-->
+                            </div>
+                            <ul class="pricing-list">
+                               
+                                <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 sm-padding pricing-car-item wow fade-in-bottom" data-wow-delay="600ms"">
+                        <div class="pricing-item">
+                            <div class="pricing-head-wrap">
+                                <div class="pricing-car pricing-car-custom service-car">
+                                    <img src="<?php echo BASE_URL; ?>assets/img/stretch_limousine/1.png" alt="car">
+                                    <!-- <div class="price">$2.50/km</div> -->
+                                </div>
+                            </div>
+                            <div class="pricing-head">
                                 <h3><a href="<?php echo base_url('book-taxi') ?>">18pax Stretch</a></h3>
                                 <!--<span class="location">Chicago</span>-->
-                        </div>
-                        <ul class="pricing-list">
-                                <li>Initial Charge:
-                                        <span>$2.50</span>
-                                </li>
-                                <li>Per Mile/KM:
-                                        <span>$4.20</span>
-                                </li>
-                                <li>Per Stopped Trafic:
-                                        <span>$1.50</span>
-                                </li>
-                                <li>Passengers: <span>4 Person</span>
-                                </li>
+                            </div>
+                            <ul class="pricing-list">
+                               
                                 <li><a href="<?php echo base_url('book-taxi') ?>" class="default-btn">Book Limo Now</a></li>
-                        </ul>
+                            </ul>
+                        </div>
+                    </div>
+                    
                 </div>
         </div>
 
