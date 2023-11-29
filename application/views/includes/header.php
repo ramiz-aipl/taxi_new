@@ -237,7 +237,7 @@
             <ul class="sidebox-list">
                 <li class="call"><span>Call for ride:</span><?php echo WEBSITE_NUMBER ?></li>
                 <li>
-                    <span>You can find us at:</span>Chicago
+                    <span>You can find us at:</span><?php echo WEBSITE_ADDRESS ?>
                 </li>
                 <li><span>Email now:</span><a href="mailto:<?php echo WEBSITE_EMAIL ?>" style="color: #fff;" class="__cf_email__" data-cfemail=""><?php echo WEBSITE_NUMBER ?></a></li>
             </ul>

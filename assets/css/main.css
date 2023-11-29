@@ -1,3 +1,78 @@
+@keyframes footerLine {
+    0% {
+        left: 40px;
+    }
+
+    50% {
+        left: 0;
+    }
+
+    100% {
+        left: 40px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+
+    
+.contact-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #1B1B1B;
+}
+    .custom_container {
+        max-width: calc(1220px + 30px);
+        padding-left: calc(30px / 2);
+        padding-right: calc(30px / 2);
+    }
+}
+
+/* Large devices */
+@media (max-width: 1199px) {
+    .z-index-common{
+        margin-top:0px !important;
+    }
+    .custom_container {
+      -webkit-clip-path: polygon(calc(100% - 25px) 0%, 100% 50%, calc(100% - 25px) 100%, 0% 100%, 25px 50%, 0% 0%);
+              clip-path: polygon(calc(100% - 25px) 0%, 100% 50%, calc(100% - 25px) 100%, 0% 100%, 25px 50%, 0% 0%);
+    }
+    
+.contact-card {
+    display: grid;
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #1B1B1B;
+}
+  }
+  
+  /* Medium devices */
+  @media (max-width: 991px) {
+    .z-index-common{
+        margin-top:0px !important;
+    }
+    .contact-card {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .contact-card .info-card {
+      padding: 20px 0;
+    }
+    
+.contact-card {
+    display: grid;
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #1B1B1B;
+}
+    .custom_container {
+      -webkit-clip-path: polygon(calc(100% - 25px) 0%, 100% 50%, calc(100% - 25px) 100%, 0% 100%, 0 50%, 0% 0%);
+              clip-path: polygon(calc(100% - 25px) 0%, 100% 50%, calc(100% - 25px) 100%, 0% 100%, 0 50%, 0% 0%);
+    }
+  }
+  
+
+
 .about-section .section-heading h2 {
     font-size: 36px;
     line-height: 42px;
@@ -124,8 +199,9 @@
 }
 
 .video-box-inner>img {
-    width: 400px;
-    border-radius: 5px
+    width: 507px;
+    border-radius: 5px;
+    height: 410px;
 }
 
 .video-box {
@@ -1334,7 +1410,7 @@
     padding: 40px;
     box-shadow: 0 1px 5px rgb(0 0 0/20%);
     position: relative;
-    min-height:350px;
+    min-height: 350px;
 }
 
 .testi-item p {
@@ -2280,8 +2356,9 @@ textarea:-ms-input-placeholder {
         left: -200px
     }
 }
-.car-holder img{
-    max-width:821px !important;
+
+.car-holder img {
+    max-width: 821px !important;
 }
 
 .pricing-car-custom {
@@ -2300,7 +2377,185 @@ textarea:-ms-input-placeholder {
     bottom: -35px;
     right: 0
 }
+
 /* 
 .service-thumb img{
     min-height: 274px !important;
 } */
+
+
+/* Footer 2 ---------------------------------- */
+.z-index-common {
+    position: relative;
+    z-index: 3;
+}
+
+.social-info i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.social-info li{
+    display: inline-block !important;
+}
+.social-card_icon:hover {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    --icon-padding: 0.9em;
+    background-color: #FFC000;
+    border-color: #FFC000 !important;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50%;
+}
+.social-card_icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #FFC000;
+    --icon-padding: 0.9em;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ADADAD;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.info-card_icon i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #FFC000;
+    color: inherit;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.contact-card .info-card.active .info-card_icon i {
+    background-color: #000;
+    color: #FFC000;
+}
+
+.info-card_icon {
+    color: #ffffff;
+}
+
+.style3 .info-card_icon i {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #000;
+}
+
+.style3 .info-card_text {
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #ADADAD;
+}
+
+.style3 .info-card_link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.style3.info-card {
+    display: flex;
+    border-right: 1px solid #2E3341;
+    gap: 15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 55px 0;
+}
+
+.contact-card .info-card {
+    padding: 30px 73px;
+    border: none !important;
+}
+
+.style3.active .info-card_text {
+    color: #000 !important;
+}
+
+.contact-card .info-card.active {
+    background-color: #FFC000;
+    -webkit-clip-path: polygon(calc(100% - 50px) 0%, 100% 50%, calc(100% - 50px) 100%, 0% 100%, 50px 50%, 0% 0%);
+    clip-path: polygon(calc(100% - 50px) 0%, 100% 50%, calc(100% - 50px) 100%, 0% 100%, 50px 50%, 0% 0%);
+}
+
+.footer-layout2 {
+    --body-color: #ADADAD;
+    background-color: #000;
+}
+
+.footer-layout2 .widget-area {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.footer-layout2 .footer-top {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #323232;
+}
+
+.footer-layout2 .copyright-wrap {
+    padding: 20px 0;
+    border-top: 1px solid #323232;
+}
+
+.footer-layout2 .copyright-text {
+    text-align: center;
+}
+
+.footer-layout2 .copyright-text a:hover {
+    color: #FFC000;
+}
+
+.widget_title:after {
+    width: 16px;
+    border: 3px solid var(--title-color);
+    height: 10px;
+    background-color: transparent;
+    bottom: -3px;
+    left: 40px;
+    -webkit-animation: footerLine 7s linear infinite;
+    animation: footerLine 7s linear infinite;
+}
+
+.widget_title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 61px;
+    height: 2px;
+    background-color: #FFC000;
+}
+
+.widget_title:after {
+    width: 16px;
+    border: 3px solid #1B1B1B;
+    height: 10px;
+    background-color: transparent;
+    bottom: -3px;
+    left: 40px;
+    -webkit-animation: footerLine 7s linear infinite;
+    animation: footerLine 7s linear infinite;
+}

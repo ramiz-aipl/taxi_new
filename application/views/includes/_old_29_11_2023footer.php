@@ -1,5 +1,5 @@
 <footer class="footer-section">
-        <!-- <div class="footer-top-wrap bg-grey">
+        <div class="footer-top-wrap bg-grey">
                 <div class="container">
                         <div class="footer-top">
                                 <div class="row
@@ -22,90 +22,51 @@
                                 </div>
                         </div>
                 </div>
-        </div> -->
-        <div class="z-index-common" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half" style="margin-bottom: -70px;margin-top:-60px;">
-                <div class="container custom_container">
-                        <div class="contact-card background-image" style="background-image: url(<?php echo BASE_URL ?>assets/img/pattern_bg_3.png);">
-                                <div class="info-card style3">
-                                        <div class="info-card_icon"><i class="las la-envelope"></i></div>
-                                        <div class="info-card_content">
-                                                <p class="info-card_text">Email Address</p><a href="mailto:<?php echo WEBSITE_EMAIL ?>" class="info-card_link"><?php echo WEBSITE_EMAIL ?></a>
-                                        </div>
-                                </div>
-                                <div class="info-card style3 active">
-                                        <div class="info-card_icon"><i class="las la-phone"></i></div>
-                                        <div class="info-card_content">
-                                                <p class="info-card_text">Phone Number</p><a href="tel:<?php echo WEBSITE_NUMBER ?>" class="info-card_link"><?php echo WEBSITE_NUMBER ?></a>
-                                        </div>
-                                </div>
-                                <div class="info-card style3">
-                                        <div class="info-card_icon"><i class="las la-map-marker-alt"></i></div>
-                                        <div class="info-card_content">
-                                                <p class="info-card_text">Our Adress</p><a href="#" class="info-card_link"><?php echo WEBSITE_ADDRESS ?></a>
-                                        </div>
-                                </div>
-                        </div>
-                </div>
         </div>
-        <div class="footer-mid-wrap mt-15">
+
+        <div class="footer-mid-wrap">
                 <div class="container">
                         <div class="row">
-                                <div class="col-lg-3 col-md-6
+                                <div class="col-lg-4 col-md-6
                                                         sm-padding">
                                         <div class="footer-item">
-                                                <div class="widget-title widget_title">
+                                                <div class="widget-title">
                                                         <h3>Working
                                                                 Hours</h3>
                                                 </div>
                                                 <ul class="footer-contact">
-                                                        <li><img src="<?php echo BASE_URL; ?>assets/img/24_7.png" width="154" style="margin-left: 30px;"></li>
-
-                                                </ul>
-                                                <ul class="social-info">
-                                                        <li><div class="social-card_icon"><i class="lab la-facebook-f"></i></div></li>
-                                                        <li><div class="social-card_icon"><i class="lab la-twitter"></i></div></li>
-                                                        <li><div class="social-card_icon"><i class="lab la-instagram"></i></div></li>
-                                                        <li><div class="social-card_icon"><i class="lab la-linkedin"></i></div></li>
+                                                        <li><img src="<?php echo BASE_URL; ?>assets/img/24_7.png" width="154"></li>
                                                         
                                                 </ul>
                                         </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6
+                                <div class="col-lg-4 col-md-6
                                                         sm-padding">
                                         <div class="footer-item
                                                                 footer-list">
-                                                <div class="widget-title widget_title">
+                                                <div class="widget-title">
                                                         <h3>Usefull
                                                                 Links</h3>
                                                 </div>
                                                 <ul class="footer-links">
-                                                        <li><a href="<?php echo base_url('book-taxi') ?>"><i class="las la-arrow-right"></i> Limo Booking</a></li>
-                                                        <li><a href="<?php echo base_url('services') ?>"><i class="las la-arrow-right"></i> Our Fleet</a></li>
-                                                        <li><a href="<?php echo base_url('about-us') ?>"><i class="las la-arrow-right"></i> About Us</a></li>
-                                                        <li><a href="<?php echo base_url('contact-us') ?>"><i class="las la-arrow-right"></i> Contact Us</a></li>
+                                                        <li><a href="<?php echo base_url('book-taxi') ?>">Limo Booking</a></li>
+                                                        <li><a href="<?php echo base_url('services') ?>">Our Fleet</a></li>
+                                                        <li><a href="<?php echo base_url('about-us') ?>">About Us</a></li>
+                                                        <li><a href="<?php echo base_url('contact-us') ?>">Contact Us</a></li>
                                                 </ul>
                                         </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6
+                                <div class="col-lg-4 col-md-6
                                                         sm-padding">
                                         <div class="footer-item">
-                                                <div class="widget-title widget_title">
+                                                <div class="widget-title">
                                                         <h3>Head
                                                                 Office</h3>
                                                 </div>
                                                 <ul class="footer-contact">
-                                                        <li><span>Location:</span><?php echo WEBSITE_ADDRESS ?></li>
+                                                        <li><span>Location:</span>Chicago</li>
                                                         <li><span>Join
                                                                         Us:</span><a href="mailto:<?php echo WEBSITE_EMAIL ?>" class="__cf_email__" style="color:#fff;" data-cfemail=""><?php echo WEBSITE_EMAIL ?></a></li>
-                                                </ul>
-                                        </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6
-                                                        sm-padding">
-                                        <div class="footer-item">
-                                                
-                                                <ul class="footer-contact">
-                                                        <li><img src="<?php echo BASE_URL; ?>assets/img/whatsapp.jpeg" width="154" style="margin-left: 30px;"></li>
                                                 </ul>
                                         </div>
                                 </div>

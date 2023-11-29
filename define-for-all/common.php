@@ -11,8 +11,9 @@ define("DOCUMENT_ROOT", $_SERVER['DOCUMENT_ROOT'] . '/taxi_new/');
 
 
 define("WEBSITE_NAME", "American Platinum Limousine Taxy");
-define("WEBSITE_EMAIL", "info@aplimo.co");
+define("WEBSITE_EMAIL", "info@aplimo_.co");
 define("WEBSITE_NUMBER", "+1 (224) 578-0598");
+define("WEBSITE_ADDRESS", "Chicago");
 define("ADMIN_EMAIL", "ramizg.aipl@gmail.com");
 define('USER_PAN_DIR', 'user_pan/');
 define('USER_PROFILE_DIR', 'user_profile/');

@@ -1,4 +1,9 @@
 
+<style>
+        i.las.la-hand-point-right{
+                color: #ff9900;
+        }
+        </style>
 <section class="page-header">
         <div class="page-header-shape"></div>
         <div class="container">
@@ -78,26 +83,32 @@
                                 <div class="sidebar-widget
                                                         banner">
                                         <div class="banner-info">
-                                                <a href="index.html"><img class="logo" src="<?php echo BASE_URL; ?>assets/img/logo-light.png" alt="logo"></a>
-                                                <h3>Feel your
-                                                        journey
-                                                        with
-                                                        <span>American Platinum Limousine!</span>
-                                                </h3>
-                                                <p>Everything
-                                                        your
-                                                        taxi
-                                                        business
-                                                        needs is
-                                                        already
-                                                        here!</p>
-                                                <h2 class="discount"><span>-60%</span>
-                                                        Off
-                                                        Today!</h2>
-                                                <a href="contact.html" class="default-btn">Get
-                                                        Your
-                                                        Offer
-                                                        Now</a>
+                                        <h3 style="background-color: #ff9900; color:#fff;text-align: center;">Please Fill A Form</h3>
+                                                <div class="contact-form-group">
+                                                        <div class="form-field message">
+                                                                <input type="text" id="firstname" name="firstname" class="form-control" placeholder="First
+                                                                                        Name" required>
+                                                        </div>
+                                                        <div class="form-field message">
+                                                                <input type="text" id="lastname" name="lastname" class="form-control" placeholder="Last
+                                                                                        Name" required>
+                                                        </div>
+                                                        <div class="form-field message">
+                                                                <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                                                        </div>
+                                                        <div class="form-field message">
+                                                                <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone
+                                                                                        Number" required>
+                                                        </div>
+                                                        <div class="form-field
+                                                                                message">
+                                                                <textarea id="message" name="message" cols="30" rows="4" class="form-control" placeholder="Message" required></textarea>
+                                                        </div>
+                                                        <div class="form-field message">
+                                                                <button id="submit" style="width: 100%;" class="default-btn" type="submit">Send
+                                                                        Massage</button>
+                                                        </div>
+                                                </div>
                                         </div>
                                 </div>
                                 <!-- <div class="sidebar-widget">

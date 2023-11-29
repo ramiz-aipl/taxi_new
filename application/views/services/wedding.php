@@ -26,7 +26,7 @@
                                                         </ul>
                                                         <br>
                                         <p>We understand the importance of smooth and reliable transportation for your corporate events. Whether it's a conference, seminar, business meeting, or team-building event, our corporate event transportation services are designed to cater to your specific business needs. With a focus on professionalism and punctuality, we ensure your team arrives at their destination comfortably and on time.</p>
-                                        <div class="service-details-list">
+                                        <!-- <div class="service-details-list">
                                                 <img src="<?php echo BASE_URL; ?>assets/img/wedding_service/2.jpg" alt="img">
                                                 <div> 
                                                         <h3>Key Features</h3>
@@ -36,7 +36,7 @@
                                                                 <li><i class="las la-hand-point-right"></i>Comfortable vehicles for corporate groups of all sizes</li>
                                                         </ul>
                                                 </div>
-                                        </div>
+                                        </div> -->
                                 </div>
                         </div>
                         <div class="col-lg-4 sm-padding">
@@ -61,26 +61,32 @@
                                 <div class="sidebar-widget
                                                         banner">
                                         <div class="banner-info">
-                                                <a href="index.html"><img class="logo" src="<?php echo BASE_URL; ?>assets/img/logo-light.png" alt="logo"></a>
-                                                <h3>Feel your
-                                                        journey
-                                                        with
-                                                        <span>American Platinum Limousine!</span>
-                                                </h3>
-                                                <p>Everything
-                                                        your
-                                                        taxi
-                                                        business
-                                                        needs is
-                                                        already
-                                                        here!</p>
-                                                <h2 class="discount"><span>-60%</span>
-                                                        Off
-                                                        Today!</h2>
-                                                <a href="contact.html" class="default-btn">Get
-                                                        Your
-                                                        Offer
-                                                        Now</a>
+                                        <h3 style="background-color: #ff9900; color:#fff;text-align: center;">Please Fill A Form</h3>
+                                                <div class="contact-form-group">
+                                                        <div class="form-field message">
+                                                                <input type="text" id="firstname" name="firstname" class="form-control" placeholder="First
+                                                                                        Name" required>
+                                                        </div>
+                                                        <div class="form-field message">
+                                                                <input type="text" id="lastname" name="lastname" class="form-control" placeholder="Last
+                                                                                        Name" required>
+                                                        </div>
+                                                        <div class="form-field message">
+                                                                <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                                                        </div>
+                                                        <div class="form-field message">
+                                                                <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone
+                                                                                        Number" required>
+                                                        </div>
+                                                        <div class="form-field
+                                                                                message">
+                                                                <textarea id="message" name="message" cols="30" rows="4" class="form-control" placeholder="Message" required></textarea>
+                                                        </div>
+                                                        <div class="form-field message">
+                                                                <button id="submit" style="width: 100%;" class="default-btn" type="submit">Send
+                                                                        Massage</button>
+                                                        </div>
+                                                </div>
                                         </div>
                                 </div>
                                 <!-- <div class="sidebar-widget">
